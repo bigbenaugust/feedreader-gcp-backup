@@ -1,0 +1,7 @@
+ODB,http://odb.org
+C&MA Tozer,http://www.cmalliance.org/devotions/tozer
+Stedman,https://www.raystedman.org/daily-devotions
+BF,http://bikeforums.net
+BL,https://forums.bunsenlabs.org/search.php?action=show_recent
+MX,https://forum.mxlinux.org/search.php?search_id=active_topics
+RPi,https://www.raspberrypi.org/forums/index.php

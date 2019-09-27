@@ -1,0 +1,6 @@
+{
+  "require": {
+        "simplepie/simplepie": "~1.5",
+        "mf2/mf2": "0.4.6"
+  }
+}

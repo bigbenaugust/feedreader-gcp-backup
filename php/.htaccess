@@ -1,5 +1,0 @@
-AuthType basic
-AuthName "Ben's Feed Reader"
-AuthBasicProvider file
-AuthUserFile /var/www/html/feedreader3-master/php/feedreader.passwd
-Require valid-user

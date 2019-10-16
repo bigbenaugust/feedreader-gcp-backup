@@ -24,7 +24,7 @@ $age = 3600*24*$days;
 echo "<!DOCTYPE HTML><html><head>";
 echo "<meta name='viewport' content='width=device-width, initial-scale=1'>";
 echo "<title>Usual RSS Feeds</title>";
-echo "<link href='https://feedreader-bigbenaugust.cloudapps.unc.edu/php/favicon.ico' rel='icon' type='image/x-icon' />";
+echo "<link href='favicon.ico' rel='icon' type='image/x-icon' />";
 echo "<link rel='stylesheet' href='https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css'>";
 echo "<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>";
 echo "<script src='https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js'></script>";

@@ -1,5 +1,63 @@
 [
     {
+        "name": "mf2/mf2",
+        "version": "0.4.6",
+        "version_normalized": "0.4.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/microformats/php-mf2.git",
+            "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/microformats/php-mf2/zipball/00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
+            "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mf2/tests": "@dev",
+            "phpdocumentor/phpdocumentor": "v2.8.4",
+            "phpunit/phpunit": "4.8.*"
+        },
+        "suggest": {
+            "barnabywalters/mf-cleaner": "To more easily handle the canonical data php-mf2 gives you",
+            "masterminds/html5": "Alternative HTML parser for PHP, for better HTML5 support."
+        },
+        "time": "2018-08-24T14:47:04+00:00",
+        "bin": [
+            "bin/fetch-mf2",
+            "bin/parse-mf2"
+        ],
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "Mf2/Parser.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC0-1.0"
+        ],
+        "authors": [
+            {
+                "name": "Barnaby Walters",
+                "homepage": "http://waterpigs.co.uk"
+            }
+        ],
+        "description": "A pure, generic microformats2 parser — makes HTML as easy to consume as a JSON API",
+        "keywords": [
+            "html",
+            "microformats",
+            "microformats 2",
+            "parser",
+            "semantic"
+        ]
+    },
+    {
         "name": "simplepie/simplepie",
         "version": "1.5.1",
         "version_normalized": "1.5.1.0",
@@ -23,7 +81,7 @@
         "suggest": {
             "mf2/mf2": "Microformat module that allows for parsing HTML for microformats"
         },
-        "time": "2017-11-12 02:03:34",
+        "time": "2017-11-12T02:03:34+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -59,64 +117,6 @@
             "atom",
             "feeds",
             "rss"
-        ]
-    },
-    {
-        "name": "mf2/mf2",
-        "version": "0.4.6",
-        "version_normalized": "0.4.6.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/microformats/php-mf2.git",
-            "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/microformats/php-mf2/zipball/00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
-            "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.4.0"
-        },
-        "require-dev": {
-            "mf2/tests": "@dev",
-            "phpdocumentor/phpdocumentor": "v2.8.4",
-            "phpunit/phpunit": "4.8.*"
-        },
-        "suggest": {
-            "barnabywalters/mf-cleaner": "To more easily handle the canonical data php-mf2 gives you",
-            "masterminds/html5": "Alternative HTML parser for PHP, for better HTML5 support."
-        },
-        "time": "2018-08-24 14:47:04",
-        "bin": [
-            "bin/fetch-mf2",
-            "bin/parse-mf2"
-        ],
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "files": [
-                "Mf2/Parser.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "CC0-1.0"
-        ],
-        "authors": [
-            {
-                "name": "Barnaby Walters",
-                "homepage": "http://waterpigs.co.uk"
-            }
-        ],
-        "description": "A pure, generic microformats2 parser — makes HTML as easy to consume as a JSON API",
-        "keywords": [
-            "html",
-            "microformats",
-            "microformats 2",
-            "parser",
-            "semantic"
         ]
     }
 ]

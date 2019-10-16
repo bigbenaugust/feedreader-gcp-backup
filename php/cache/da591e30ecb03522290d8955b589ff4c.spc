@@ -1,449 +1,2270 @@
-a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:13:"The Daily WTF";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:23:"http://thedailywtf.com/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:45:"Curious Perversions in Information Technology";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 18 Sep 2019 19:17:13 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:15:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:26:"CodeSOD: You Can Take Care";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"https://thedailywtf.com/articles/you-can-take-care";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 18 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"https://thedailywtf.com/articles/you-can-take-care";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3711:"<p><strong>Tiberrias</strong> sends us some code that, on its face, without any context, doesn’t look bad.</p>
-<pre><code class="csharp">var conditionId = _monitorConditionManagement.GetActiveConditionCountByClient(clientIdentityNumber);
+a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:13:"The Daily WTF";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:23:"http://thedailywtf.com/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:45:"Curious Perversions in Information Technology";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 16 Oct 2019 17:55:17 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:15:{i:0;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:25:"CodeSOD: The Replacements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:49:"https://thedailywtf.com/articles/the-replacements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 16 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:49:"https://thedailywtf.com/articles/the-replacements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2653:"<p>Nobody wants to have a <a href="https://www.xkcd.com/327/">Bobby Tables</a> moment in their database. So we need to to sanitize our inputs. <strong>Ted C</strong> noticed a bunch of stored procedures which contained lines like this:</p>
+<pre><code class="sql">  @scrubbed = fn_ScrubInput(fn_ScrubInput(@input))</code></pre>
 
-_monitorConditionManagement.StopCondition(conditionId);</code></pre>
+<p>Obviously, they wanted to be <em>super</em> careful, and make sure their inputs were clean. But it got Ted curious, so he checked out how the function was implemented. The function body had one line, the <code>RETURN</code> line, which looked like this:</p>
+<pre><code class="sql">  RETURN REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(@input, &#39;&#34;&#39;, &#39;&#34;&#39;), 
+&#39;*&#39;, &#39;\*&#39;),&#39;~&#39;, &#39;\~&#39;), &#39;@&#39;, &#39;\@&#39;), &#39;#&#39;, 
+&#39;\#&#39;), &#39;$&#39;,&#39;\$&#39;),&#39;%&#39;,&#39;\%&#39;),&#39;^&#39;,&#39;\^&#39;),
+&#39;&amp;&#39;,&#39;\&amp;&#39;),&#39;(&#39;,&#39;\(&#39;),&#39;)&#39;,&#39;\)&#39;),
+&#39;_&#39;,&#39;\_&#39;),&#39;+&#39;,&#39;\+&#39;),&#39;=&#39;,&#39;\=&#39;),&#39;&gt;&#39;,
+&#39;\&gt;&#39;),&#39;&lt;&#39;,&#39;\&lt;&#39;),&#39;?&#39;,&#39;\?&#39;),&#39;/&#39;,
+&#39;\/&#39;)</code></pre>
 
-<p>The purpose of this code is to lookup a condition ID for a client, and then clear that condition from a client by <code>StopCondition</code>ing that ID. Which, if you read the code closely, the problem becomes obvious: <code>GetActiveConditionCountByClient</code>. <strong>Count</strong>. This doesn’t return a condition ID, it returns the count of the number of active conditions. So, this is a stupid, simple mistake, an easy error to make, and an easy error to catch- this code simply doesn’t work, so what’s the WTF?</p>
+<p>Whitespace added.</p>
 
-<p>This code was written by a developer who either made a simple mistake or just didn’t care. But then it went through code review- and the code reviewer either missed it, or just didn’t care. It’s okay, though, because there are unit tests. There’s a rich, robust unit test suite. But in this case, the <code>GetActiveConditionCountByClient</code> and the <code>StopCondition</code> methods are just mocks, and the person who wrote the unit test didn’t check to see that the mocks were called as expected, because they just didn’t care.</p>
-
-<p>Still, there’s an entire QA team between this code and production, and since this code <em>definitely can’t work</em>, they’re going to catch the bug, right? They might- if they cared. But this code passed QA, and got released into production.</p>
-
-<p>The users might notice, but the <code>StopCondition</code> method is so nice that, if given an invalid ID, it just logs the error and trucks on. The users think their action worked. But hey, there’s a log file, right? There’s an operations team which monitors the logs and should notice a lot of errors suddenly appearing. They just would have to <em>care</em>, which guess what…</p>
-
-<p>This bug only got discovered and fixed because Tiberrias noticed it while scrolling through the class to fix an entirely unrelated bug.</p>
-
-<p>“You really shouldn’t fix two unrelated bugs in the same commit,” the code reviewer said when Tiberrias submitted it.</p>
-
-<p>There was only one way to reply. “I don’t care.”</p>
-<!-- Easy Reader Version: I've used this easy reader version before, but: https://www.youtube.com/watch?v=xhaPvmqqIS0 -->
+<p>Ted REPLACE REPLACE REPLACEd this with a call to the built-in <code>STRING_ESCAPE</code> function, which handled the escaping they needed.</p>
+<!-- Easy Reader Version: I'm just on a kick with these nested calls this week, I guess -->
 <link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
 <script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">ProGet</a> supports your applications, Docker containers, and third-party packages, allowing you to enforce quality standards across all components. <a href="https://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">Download</a> and see how!
+<script>hljs.initHighlightingOnLoad();</script><div>
+	<img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	Forget logs. Next time you&#39;re struggling to replicate error, crash and performance issues in your apps - Think <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Raygun</a>! Installs in minutes. <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Learn more.</a>
 </div>
 <div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=_zRYiToH7Lc:8ja6bfzcu-g:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/_zRYiToH7Lc" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"16";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:59:"https://thedailywtf.com/articles/comments/you-can-take-care";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:16:"Charles Robinson";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:21:"A Learning Experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:54:"https://thedailywtf.com/articles/a-learning-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"Feature Articles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 17 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:54:"https://thedailywtf.com/articles/a-learning-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4534:"<p><b>Jakob M.</b> had the great pleasure of working as a System Administrator in a German school district. At times it was rewarding work. Most of the time it involved replacing keyboard keys mischievous children stole and scraping gum off of monitor screens. It wasn&#39;t always the students that gave him trouble though. 
-</p><p>
-Frau Fritzenberger was a cranky old math teacher at a Hauptschule near Frankfurt. Jakob regularly had to answer support calls she made for completely frivolous things. Having been teaching since before computers were a thing, she put up a fight for every new technology or program Jakob&#39;s department wanted to implement. 
-</p><p>
-Over the previous summer, a web-based grading system called NotenWertung was rolled out across the district&#39;s network. It would allow teachers to grade homework and post the scores online. They could work from anywhere, with any computer. There was even a limited mobile application. Students and parents could then get a notification and see them instantly. Frau Fritzenberger was predictably not impressed.
-</p><p>
-She threw a fit on the first day of school and Jakob was dispatched to defuse it. &#34;Why do we need computers for grading?!&#34; she screeched at Jakob. &#34;<i>Paper</i> works just fine like it has for decades! How else can I use blood red pen to shame them for everything they get wrong!&#34; 
-</p><p>
-&#34;I understand your concern, Frau Fritzenberger,&#34; Jakob replied while making a &#39;calm down&#39; gesture with his arms. &#34;But we can&#39;t have you submitting grades on paper when the <i>entire</i> rest of the district is using NotenWertung.&#34; He had her sit down at the computer and gave her a <i>For Dummies</i>-type walkthrough. &#34;There, it&#39;s easier than you think. You can even do this at night from the comfort of your own home,&#34; he assured her before getting up to leave.
-</p><p>
-Just as he was exiting the classroom, he heard her shout, &#34;If you were my student, I would smack you with my ruler!&#34; Jakob brushed it off and left to answer a call about paper clips jammed in a PC fan.   
-</p><p>
-The next morning, Jakob got a rare direct call on his desk phone. It was Frau and she was in a rage. All he could make out between strings of aged German cuss words was &#34;computer is broken!&#34; He hung up and prepared to head to Frau&#39;s Hauptschule. 
-</p><p>
-Jakob expected to find that Frau didn&#39;t have a network connection, misplaced the shortcut to her browser, didn&#39;t realize the monitor was off, or something stupid like that. What he found was Frau&#39;s computer was <i>literally</i> broken. The LCD screen of her monitor was an elaborate spider web, her keyboard was cracked in half, and the PC tower looked like it had been run over on the Autobahn. Bits of the motherboard dangled outside the case, and the HDD swung from its cable. &#34;Frau Fritzenberger... what in the name of God happened here?!&#34;
-</p><p>
-&#34;I told you the computer was broken!&#34; Frau shouted while meanly pointing her crooked index finger at Jakob. &#34;You told me I have to do grades on the computer. So I packed it up to take home on my scooter. It was too heavy for me to ride with it on back so I wiped out and it smashed all over the road! This is all <i>your</i> fault!&#34;
-</p><p>
-Jakob stared on in disbelief at the mangled hunks of metal and plastic. Apparently you can teach an old teacher new tricks but you can&#39;t teach her that the same web application can be accessed from any computer.  
-</p><div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">ProGet</a> supports your applications, Docker containers, and third-party packages, allowing you to enforce quality standards across all components. <a href="https://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">Download</a> and see how!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=h0dISNvKeTQ:hB1ftS1J0Lk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/h0dISNvKeTQ" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"46";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:63:"https://thedailywtf.com/articles/comments/a-learning-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:35:"CodeSOD: Should I Do this? Depends.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/should-i-do-this-depends";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 16 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/should-i-do-this-depends";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3643:"<p>One of the key differences between a true WTF and an ugly hack is a degree of self-awareness. It&#39;s not a WTF if you <em>know</em> it&#39;s a WTF. If you&#39;ve been doing this job for a non-zero amount of time, you have had a moment where you have a solution, and you <em>know</em> it&#39;s wrong, you <em>know</em> you shouldn&#39;t do this, but by the gods, it works and you&#39;ve got more important stuff to worry about right now, so you just <em>do it</em>.</p>
-<p>An anonymous submitter committed a sin, and has reached out to us for absolution.</p>
-<p>This is a case of &#34;DevOps&#34; hackery. They have one server with no Internet- one <em>remote</em> server with no Internet. Deploying software to a server you can&#39;t access physically <em>or</em> through the Internet is a <em>challenge</em>. They have a solution involving hopping through some other servers and bridging the network that lets them get the <code>.deb</code> package files within reach of the destination server.</p>
-<p>But that introduces a new problem: these packages have complex dependency chains and unless they&#39;re installed in the right order, it won&#39;t work. The <em>correct</em> solution would be to install a local package repository on the destination server, and let <code>apt</code> worry about resolving those dependencies.</p>
-<p>And in the long run, that&#39;s what our anonymous submitter promises to do. But they found themselves in a situation where they had more important things to worry about, and just needed to <em>do it</em>.</p>
-<pre><code class="language-bash"><div><span class="hljs-meta">#!/bin/bash
-</span>
-count=0
-<span class="hljs-keyword">for</span> f <span class="hljs-keyword">in</span> ./*.deb
-<span class="hljs-keyword">do</span>
-	<span class="hljs-built_in">echo</span> <span class="hljs-string">&#34;Attempt <span class="hljs-variable">$count</span>&#34;</span>
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=Ce6WF3GzqIE:hsfrEumEfT4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/Ce6WF3GzqIE" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"20";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:58:"https://thedailywtf.com/articles/comments/the-replacements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"CodeSOD: Cast Away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:42:"https://thedailywtf.com/articles/cast-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 15 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:42:"https://thedailywtf.com/articles/cast-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:7826:"<p>The accountants at <strong>Gary</strong>&#39;s company had a problem: sometimes, when they wanted to check the price to ship a carton of product, that price was zero. No one had, as of yet, <em>actually</em> shipped product for free, but they needed to understand why certain cartons were showing up as having zero cost.</p>
+<p>The table which tracks this, <code>CartonFee</code>, has three fields: <code>ID</code>, <code>Carton</code>, and <code>Cost</code>. Carton names are unique, and things like <code>12x3x6</code>, or <code>Box1</code>, or even <code>Large box</code>. So, given a carton name, it should be pretty easy to update the cost, yes? The stored procedure which does this, <code>spQuickBooks_UpdateCartonCost</code> should be pretty simple.</p>
+<pre><code class="language-sql"><div><span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">PROCEDURE</span> [dbo].[spQuickBooks_UpdateCartonCost]
+	@Carton <span class="hljs-built_in">varchar</span>(<span class="hljs-number">100</span>),
+	@Fee <span class="hljs-built_in">decimal</span>(<span class="hljs-number">6</span>,<span class="hljs-number">2</span>)
+<span class="hljs-keyword">AS</span>
+<span class="hljs-keyword">BEGIN</span>
+	
+	<span class="hljs-keyword">DECLARE</span> @<span class="hljs-keyword">Cost</span> <span class="hljs-built_in">decimal</span>(<span class="hljs-number">8</span>,<span class="hljs-number">3</span>) = <span class="hljs-keyword">LEFT</span>(<span class="hljs-keyword">CAST</span>(<span class="hljs-keyword">CAST</span>((<span class="hljs-keyword">CAST</span>(@Fee <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>))/<span class="hljs-number">140</span>) * <span class="hljs-number">100</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>)) <span class="hljs-keyword">AS</span> <span class="hljs-built_in">VARCHAR</span>), 
+		<span class="hljs-keyword">LEN</span>(<span class="hljs-keyword">CAST</span>(<span class="hljs-keyword">CAST</span>((<span class="hljs-keyword">CAST</span>(@Fee <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>))/<span class="hljs-number">140</span>) * <span class="hljs-number">100</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>)) <span class="hljs-keyword">AS</span> <span class="hljs-built_in">VARCHAR</span>)) - <span class="hljs-number">1</span>) 
+		+ <span class="hljs-keyword">CASE</span> <span class="hljs-keyword">WHEN</span> <span class="hljs-keyword">RIGHT</span>(<span class="hljs-keyword">LEFT</span>(<span class="hljs-keyword">CAST</span>(<span class="hljs-keyword">CAST</span>((<span class="hljs-keyword">CAST</span>(@Fee <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>))/<span class="hljs-number">140</span>) * <span class="hljs-number">100</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">4</span>)) <span class="hljs-keyword">AS</span> <span class="hljs-built_in">VARCHAR</span>),
+			<span class="hljs-keyword">LEN</span>(<span class="hljs-keyword">CAST</span>(<span class="hljs-keyword">CAST</span>((<span class="hljs-keyword">CAST</span>(@Fee <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">3</span>))/<span class="hljs-number">140</span>) * <span class="hljs-number">100</span> <span class="hljs-keyword">AS</span> <span class="hljs-built_in">NUMERIC</span>(<span class="hljs-number">36</span>,<span class="hljs-number">4</span>)) <span class="hljs-keyword">AS</span> <span class="hljs-built_in">VARCHAR</span>)) - <span class="hljs-number">1</span>), <span class="hljs-number">1</span>) &gt; <span class="hljs-number">5</span> 
+		<span class="hljs-keyword">THEN</span> <span class="hljs-string">&#39;5&#39;</span> <span class="hljs-keyword">ELSE</span> <span class="hljs-string">&#39;0&#39;</span> <span class="hljs-keyword">END</span>
 
-	<span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> ./*.deb
-	<span class="hljs-keyword">do</span>
-	  <span class="hljs-built_in">echo</span> <span class="hljs-string">&#34;Installing <span class="hljs-variable">$file</span>&#34;</span>	
-	  sudo dpkg -i <span class="hljs-variable">$file</span>
-	<span class="hljs-keyword">done</span>
-
-	(( count++ ))
-<span class="hljs-keyword">done</span>
+	<span class="hljs-keyword">IF</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">EXISTS</span> (<span class="hljs-keyword">SELECT</span> <span class="hljs-number">1</span> <span class="hljs-keyword">FROM</span> CartonFee <span class="hljs-keyword">WHERE</span> Carton = @Carton) <span class="hljs-keyword">BEGIN</span>
+		<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> CartonFee <span class="hljs-keyword">VALUES</span> (@Carton, @<span class="hljs-keyword">Cost</span>)
+	<span class="hljs-keyword">END</span> <span class="hljs-keyword">ELSE</span> <span class="hljs-keyword">BEGIN</span>
+		<span class="hljs-keyword">UPDATE</span> CartonFee <span class="hljs-keyword">SET</span> <span class="hljs-keyword">Cost</span> = @<span class="hljs-keyword">Cost</span> <span class="hljs-keyword">WHERE</span> Carton = @Carton
+	<span class="hljs-keyword">END</span>
+<span class="hljs-keyword">END</span>
 </div></code></pre>
-<p>This is a solution to dependency management which operates on <code>O(N^2)</code>: we install each package once for the total number of packages in the folder. It&#39;s the brutest of force solutions, and no matter what our dependency chain looks like, by sheer process of elimination, this <em>will</em> eventually get every package installed. Eventually.</p>
-<!-- Easy Reader Version: If it's stupid and it works, commit it to the repo and let your successor worry about it -->
-    <div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. <a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Consistently&amp;utm_campaign=ProGet_Footer">Learn how</a> today!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=BCMDCXQqKkk:BPnbA9c1puY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/BCMDCXQqKkk" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"29";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:66:"https://thedailywtf.com/articles/comments/should-i-do-this-depends";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"Error&#039;d: Many Languages, One WTF";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/many-languages-one-wtf";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 13 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/many-languages-one-wtf";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2806:"<p>&#34;It&#39;s as if IntelliJ IDEA just gave up trying to parse my code,&#34; writes <strong>John F.</strong>
-</p><p><strong>Henry D.</strong> writes, &#34;If you have a phone in English but have it configured to recognize two different languages, simple requests sometimes morph into the weirdest things.&#34;
-</p><blockquote><p><a href="#Pic-5"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-5.png"/></a></p><p> </p></blockquote>
-
-<p></p><blockquote><p><a href="#Pic-1"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-1.png"/></a></p><p> </p></blockquote>
-
-<p><strong>Carl C.</strong> wrote, &#34;Maybe Best Buy&#39;s page is referring to a store near <a href="https://goo.gl/maps/SjNyEtSrML9qMtnc9">Nulltown, Indiana</a>, but really, I think their site is on drugs.&#34;
-</p><blockquote><p><a href="#Pic-2"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-2.png"/></a></p><p> </p></blockquote>
-
-<p>&#34;Yeah, Thanks Cisco, but I&#39;m not sure I really want to learn more,&#34; writes <strong>Matt P.</strong>
-</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-3.jpg"/></a></p><p> </p></blockquote>
-
-<p>&#34;Ebay is alerting me to something. No idea what it is, but I can tell you what they named their variables,&#34; <strong>Lincoln K.</strong> wrote.
-</p><blockquote><p><a href="#Pic-4"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-4.jpg"/></a></p><p> </p></blockquote>
-
-<p>&#34;Not quite sure what secrets the Inner Circle holds, I guess knowing Latin?&#34; writes <strong>Matt S.</strong>
-</p><blockquote><p><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e380/Pic-6.jpg"/></a></p><p> </p></blockquote>
-<div>
-	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">BuildMaster</a> allows you to create a self-service release management platform that allows different teams to manage their applications. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">Explore how!</a> 
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=Ws824hsa5Ps:Pf6BZvYHnAc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/Ws824hsa5Ps" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"15";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:64:"https://thedailywtf.com/articles/comments/many-languages-one-wtf";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:21:"CodeSOD: Time to Wait";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:45:"https://thedailywtf.com/articles/time-to-wait";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 12 Sep 2019 07:00:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:45:"https://thedailywtf.com/articles/time-to-wait";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4070:"<p>When dealing with customers- and here, we mean, “off the street” customers- they often want to know “how long am I going to have to wait?” Whether we’re talking about a restaurant, a mechanic, a doctor’s office, or a computer/phone repair shop, knowing (and sharing with our customers) reasonable expectations about how much time they’re about to spend waiting.</p>
-
-<p><strong>Russell F</strong> works on an application which facilitates this sort of customer-facing management. It does much more, too, obviously, but one of its lesser features is to estimate how long a customer is about to spend waiting.</p>
-
-<p>This is how that’s calculated:</p>
-<pre><code class="csharp">TimeSpan tsDifference = dtWorkTime - DateTime.Now;
-string strEstWaitHM = ((tsDifference.Hours * 60) + tsDifference.Minutes).ToString();
-if (Convert.ToInt32(strEstWaitHM) &gt;= 60)
-{
-	decimal decWrkH = Math.Floor(Convert.ToDecimal(strEstWaitHM) / 60);
-	int intH = Convert.ToInt32(decWrkH);
-	txtEstWaitHours.Value = Convert.ToString(intH);
-	int intM = Convert.ToInt32(strEstWaitHM) - (60 * intH);
-	txtEstWaitMinutes.Value = Convert.ToString(intM);
-}
-else
-{
-	txtEstWaitHours.Value = &#34;&#34;;
-	txtEstWaitMinutes.Value = strEstWaitHM;
-}</code></pre>
-
-<p>Hungarian Notation is always a great sign of bad code. It really is, and I think that’s because it’s easy to do, easy to enforce as a standard, and provides the most benefit when you have messy variable scoping and keeping track of what type a given variable is might actually be a challenge.</p>
-
-<p><em>Or</em>, as we see in this case, it’s useful when you’re passing the same data through a method with different types. We calculate the difference between the <code>WorkTime</code> and <code>Now</code>. That’s the last thing in this code which makes sense.</p>
-
-<p>The key goal here is that, if we’re going to be waiting for more than an hour, we want to display both the hours and minutes, but if it’s just minutes, we want to display just that. </p>
-
-<p>We have that <code>TimeSpan</code> object, which as you can see, has a convenient <code>Hours</code> and <code>Minutes</code> property. Instead of using that, though, we convert the hours to minutes, add it together, if the number is more than 60, we know we’ll be waiting for over an hour, so we want to populate the hours box, <em>and</em> the minutes box, so we have to convert back to hours and minutes.</p>
-
-<p>In that context, the fact that we have to convert from strings to numbers and back almost seems logical. Almost. I especially like that they <code>Convert.ToDecimal</code> (to avoid rounding errors) and <code>Math.floor</code> the result (to round off). If only there were some numeric type that never rounded off, and always had an integer value. If only…</p>
-<!-- Easy Reader Version: I posted this late to keep you waiting -->
+<p>Just stare at that chain of casts for a moment. It teeters on the verge of making sense, calls to <code>LEFT</code> and <code>RIGHT</code> and multiplying by 100- we&#39;re just doing string munging to round off, that must be what&#39;s going on. If I count the parentheses, and really sit down and sketch this out, I can figure out what&#39;s going on, it must make sense, right?</p>
+<p>And then you spot the <code>/140</code>. Divide by 140. Why? <em>Why that very specific number?</em> Is it a secret code? Is it a signal to the Illuminated Seers of Bavaria such that they know the stars are right and they may leave Aghartha to sit upon the Throne of the World? After all, <code>1 + 4 + 0</code> is five, and as we know, <a href="https://discordia.fandom.com/wiki/Law_of_Fives">the law of fives</a> is never wrong.</p>
+<p>As it turns out, this stored procedure wasn&#39;t the problem. While it <em>looks</em> like it&#39;s responsible for updating the cost field, it&#39;s never actually called anywhere. It was, at one point, but it caused so much confusion that the users just started updating the table by hand. Somebody thought they&#39;d get clever and use an <code>UPDATE</code> statement and messed up.</p>
+<!-- Easy reader Version: HAIL ERIS. FNORD -->
 <link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
 <script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">ProGet</a> supports your applications, Docker containers, and third-party packages, allowing you to enforce quality standards across all components. <a href="https://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">Download</a> and see how!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=IRZ104jR-dY:TK2rW2h-VBw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/IRZ104jR-dY" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"34";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:54:"https://thedailywtf.com/articles/comments/time-to-wait";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"CodeSOD: ImAlNumb?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:41:"https://thedailywtf.com/articles/imalnumb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 11 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:41:"https://thedailywtf.com/articles/imalnumb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5066:"<p>I think it’s fair to say that C, as a language, has never had a particularly <em>great</em> story for working with text. Individual characters are <em>okay</em>, but strings are a nightmare. The need to support unicode has only made that story a little more fraught, especially as older code now suddenly needs to support extended characters. And by “older” I mean, “<code>wchar</code> was added in 1995, which is practically yesterday in C time”.</p>
-
-<p><strong>Lexie</strong> inherited some older code. It was not designed to support unicode, which is certainly <em>a</em> problem in 2019, and it’s the problem Lexie was tasked with fixing. But it had an… <em>interesting</em> approach to deciding if a character was alphanumeric.</p>
-
-<p>Now, if we limit ourselves to ASCII, there are a variety of ways we could do this check. We could convert it to a number and do a simple check- characters 48–57 are numeric, 65–90 and 97–122 cover the alphabetic characters. <!-- Am I losing my mind? I could have sworn that range was contiguous, but every ASCII table I check disagrees. It's been decades since I've had to think about this, but I could have sworn… --> But that’s a conditional expression- <em>six</em> comparison operations! So maybe we should be more clever. There is a built-in library function, <code>isalnum</code>, which <em>might</em> be more optimized, and <em>is</em> available on Lexie’s platform. But we’re dedicated to really doing some serious premature optimization, so there has to be a better way.</p>
-<pre><code class="c">bool isalnumCache[256] =
-{false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false, false,
-false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false,
-false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, true, false, false, false, false,
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};</code></pre>
-
-<p>This is a lookup table. Convert your character to an integer, and then use it to index the array. This <em>is</em> fast. It’s also error prone, and this block <em>does</em> incorrectly identify a non-alphanumeric as an alphanumeric. It also 100% fails if you are dealing with <code>wchar_t</code>, which is how Lexie ended up looking at this block in the first place.</p>
-<!-- Easy Reader Version: It's actually not *terrible*, but a weird artifact to stumble across -->
-<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
-<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
 <div>
 	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
 	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Confidence&amp;utm_campaign=Buildmaster_Footer">Utilize BuildMaster</a> to release your software with confidence, at the pace your business demands. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Confidence&amp;utm_campaign=Buildmaster_Footer">Download</a> today!  
 </div>
 <div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=3_9qWjsxNro:A_JqF-JMvds:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/3_9qWjsxNro" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"41";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:50:"https://thedailywtf.com/articles/comments/imalnumb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Jane Bailey";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:20:"Death by Consumption";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/death-by-consumption";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"Feature Articles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 10 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/death-by-consumption";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4163:"<p style="float:right; padding-left:10px; padding-bottom:10px;"><a title="Roberto Novaes [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tryton_Party_Module_Address_Database_Diagram.png"><img itemprop="image" width="300" alt="Tryton Party Module Address Database Diagram" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Tryton_Party_Module_Address_Database_Diagram.png"/></a></p>
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=ih42J5lL8P0:aARZp3c5rfI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/ih42J5lL8P0" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"16";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/comments/cast-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"CodeSOD: I See What Happened";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:52:"https://thedailywtf.com/articles/i-see-what-happened";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 14 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:52:"https://thedailywtf.com/articles/i-see-what-happened";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2922:"<p><strong>Graham</strong> picked up a ticket regarding their password system. It seemed that several users had tried to put in a perfectly valid password, according to the rules, but it was rejected.</p>
+<p>Graham&#39;s first step was to attempt to replicate on his own, but couldn&#39;t do it. So he followed up with one of the end users, and got them to reveal the password they had <em>tried</em> to use. That allowed him to trigger the bug, so he dug into the debugger to find the root cause.</p>
+<pre><code class="language-java"><div><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String UPPERCASE_LETTERS = <span class="hljs-string">&#34;ABDEFGHIJKLMNOPQRSTUVWXYZ&#34;</span>;
 
-<p>The task was simple: change an AMQ consumer to insert data into a new Oracle database instead of an old MS-SQL database. It sounded like the perfect task for the new intern, <b>Rodger</b>; Rodger was fresh out of a boot camp and ready for the real world, if he could only get a little experience under his belt. The kid was bright as they came, but boot camp only does so much, after all.</p>
-
-<p>But there are always complications. The existing service was installed on the old app servers that weren&#39;t setup to work with the new corporate app deployment tool. The fix? To uninstall the service on the old app servers and install it on the new ones. Okay, simple enough, if not well suited to the intern.</p>
-
-<p>Rodger got permissions to set up the service on his local machine so he could test his install scripts, and a senior engineer got an uninstall script working as well, so they could seamlessly switch over to the new machines. They flipped the service; deployment day came, and everything went smoothly. The business kicked off their process, the consumer service picked up their message and inserted data correctly to the new database.</p>
-
-<p>The next week, the business kicked off their process again. After the weekend, the owners of the old database realized that the data was inserted into the old database and not the new database. They promptly asked how this had happened. Rodger and his senior engineer friend checked the queue; it correctly had two consumers set up, pointing at the new database. Just to be sure, they also checked the old servers to make sure the service was correctly uninstalled and removed by tech services. All clear.</p>
-
-<p>Hours later, the senior engineer refreshed the queue monitor and saw the queue now had three consumers despite the new setup having only two servers. But how? They checked all three servers—two new and one old—and found no sign of a rogue process.</p>
-
-<p>By that point, Rodger was online for his shift, so the senior engineer headed over to talk to him. &#34;Say, Rodger, any chance one of your installs duplicated itself or inserted itself twice into the consumer list?&#34;</p>
-
-<p>&#34;No way!&#34; Rodger replied. &#34;Here, look, you can see my script, I&#39;ll run it again locally to show you.&#34;</p>
-
-<p>Running it locally ... with dawning horror, the senior engineer realized what had happened. Roger had the install script, but not the uninstall—meaning he had a copy still running on his local developer laptop, connected to the production queue, but with the old config for some reason. Every time he turned on his computer, hey presto, the service started up.</p>
-
-<p>The moral of the story: always give the intern the <i>destructive</i> task, not the constructive one. That can&#39;t go wrong, right?</p><div>
-	<img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	Forget logs. Next time you&#39;re struggling to replicate error, crash and performance issues in your apps - Think <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Raygun</a>! Installs in minutes. <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Learn more.</a>
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=wCUVFcydJ5c:SWEUXChnIsk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/wCUVFcydJ5c" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"14";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:62:"https://thedailywtf.com/articles/comments/death-by-consumption";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:22:"CodeSOD: Making a Nest";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:46:"https://thedailywtf.com/articles/making-a-nest";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 09 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:46:"https://thedailywtf.com/articles/making-a-nest";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3858:"<p>Tiffany started the code review with an apology. &#34;I only did this to stay in style with the existing code, because it&#39;s either that or we rewrite the whole thing from scratch.&#34;</p>
-<p><strong>Jim J</strong>, who was running the code review nodded. Before Tiffany, this application had been designed from the ground up by Armando. Armando had gone to a tech conference, and learned about F#, and how all those exciting functional features were available in C#, and returned jabbering about &#34;immutable data&#34; and &#34;functors&#34; and &#34;metaprogramming&#34; and decided that he was now a functional programmer, who just <em>happened</em> to work in C#.</p>
-<p>Some struggling object-oriented developers use dictionaries for everything. As a struggling functional programmer, Armando used tuples for everything. And these tuples would get deeply nested. Sometimes, you needed to flatten them back out.</p>
-<p>Tiffany had contributed this method to do that:</p>
-<pre><code class="language-csharp"><div><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Result&lt;Tuple&lt;T1, T2, T3, T4, T5&gt;&gt; FlatternTupleResult&lt;T1, T2, T3, T4, T5&gt;(
-          Result&lt;Tuple&lt;Tuple&lt;Tuple&lt;Tuple&lt;T1, T2&gt;, T3&gt;, T4&gt;, T5&gt;&gt; tuple
-          )
-{
-    <span class="hljs-keyword">return</span> tuple.Map(x =&gt; <span class="hljs-keyword">new</span> Tuple&lt;T1, T2, T3, T4, T5&gt;(x.Item1.Item1.Item1.Item1, x.Item1.Item1.Item1.Item2, x.Item1.Item1.Item2, x.Item1.Item2, x.Item2));
+<span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> <span class="hljs-title">countMatches</span><span class="hljs-params">(String string, String charList)</span> </span>{
+  <span class="hljs-keyword">int</span> count = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">char</span> c : charList.toCharArray()) {
+    count += StringUtils.countMatches(string, String.valueOf(c));
+  }
+  <span class="hljs-keyword">return</span> count;
 }
 </div></code></pre>
-<p>It&#39;s safe to say that deeply nested generics are a <em>super clear</em> code smell, and <em>this</em> line: <code>Result&lt;Tuple&lt;Tuple&lt;Tuple&lt;Tuple&lt;T1, T2&gt;, T3&gt;, T4&gt;, T5&gt;&gt; tuple</code> downright reeks. Tuples in tuples in tuples.</p>
-<p>Tiffany cringed at the code she had written, but this method lived in the <code>TaskResultHelper</code> class, and lived alongside methods with these signatures:</p>
-<pre><code class="language-csharp"><div><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Result&lt;Tuple&lt;T1, T2, T3, T4&gt;&gt; FlatternTupleResult&lt;T1, T2, T3, T4&gt;(Result&lt;Tuple&lt;Tuple&lt;Tuple&lt;T1, T2&gt;, T3&gt;, T4&gt;&gt; tuple)
-<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Result&lt;Tuple&lt;T1, T2, T3&gt;&gt; FlatternTupleResult&lt;T1, T2, T3&gt;(Result&lt;Tuple&lt;Tuple&lt;T1, T2&gt;, T3&gt;&gt; tuple)
-</div></code></pre>
-<p>&#34;This does fit in with the way the application currently works,&#34; Jim admitted. &#34;I&#39;m sorry.&#34;</p>
+<p>This isn&#39;t a great solution, but it at least <em>works</em>. Well, it &#34;works&#34; if you are able to remember how to recite the alphabet. If you look closely, you can tell that there are no pirate on their development team, because while pirates are fond of the letter &#34;R&#34;, their first love will always be the &#34;C&#34;.</p>
+<!-- Easy Reader Version: The RWTF is pretty much every password complexity rule, like, there HAS to be a better way to do this (and there are many options) -->
 <link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
 <script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script><div>
-	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">BuildMaster</a> allows you to create a self-service release management platform that allows different teams to manage their applications. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">Explore how!</a> 
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=RbG2WkN-aRc:IwDgtrDLkrc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/RbG2WkN-aRc" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"31";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/comments/making-a-nest";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:58:"Error&#039;d: Does Your Child Say &quot;WTF&quot; at Home?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:64:"https://thedailywtf.com/articles/does-your-child-say-wtf-at-home";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 06 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:64:"https://thedailywtf.com/articles/does-your-child-say-wtf-at-home";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2538:"<p><strong>Abby</strong> wrote, &#34;I&#39;m tempted to tell the school that my child mostly speaks Sanskrit.&#34;
-</p><blockquote><p><a href="#Pic-2"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-2.png"/></a></p><p> </p></blockquote>
-
-<p>&#34;First of all, I have 58,199 rewards points, so I&#39;m a little bit past joining, second, I&#39;m pretty sure Bing Rewards was rebranded as Microsoft Rewards a while ago, and third...SERPBubbleXL...<i>wat?</i>&#34; writes <strong>Zander</strong>. 
-</p><blockquote><p><a href="#Pic-1"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-1.png"/></a></p><p> </p></blockquote>
-
-<p>&#34;I guess, for T-Mobile, time really is money,&#34; <strong>Greg</strong> writes.
-</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-3.png"/></a></p><p> </p></blockquote>
-
-<p><strong>Hans K.</strong> wrote, &#34;I guess it&#39;s sort of fitting, but in a quiz about Generics in Java, I was left a little bit confused.
-</p><blockquote><p><a href="#Pic-4"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-4.png"/></a></p><p> </p></blockquote>
-
-<p>&#34;Wait, so if I do, um, nothing, am I allowed to make further changes or any new appointment?&#34; <strong>Jeff K.</strong> writes.
-</p><blockquote><p><a href="#Pic-5"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-5.png"/></a></p><p> </p></blockquote>
-
-<p><strong>Soumya</strong> wrote, &#34;Yeah...I&#39;m not a big fan of Starbucks&#39; reward program...&#34;
-</p><blockquote><p><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e379/Pic-6.png"/></a></p><p> </p></blockquote><div>
-	<img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	Continuously monitor your servers for configuration changes, and report when there&#39;s configuration drift. <a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;utm_medium=Footerad&amp;utm_term=2018&amp;utm_content=Monitor&amp;utm_campaign=Otter_Footer">Get started with Otter</a> today!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=Dw6eakxgCbw:fJKDWdG2HwU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/Dw6eakxgCbw" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"34";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:73:"https://thedailywtf.com/articles/comments/does-your-child-say-wtf-at-home";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"CodeSOD: Give Your Date a Workout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/give-your-date-a-workout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 05 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/give-your-date-a-workout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3373:"<p><strong>Bob E</strong> inherited a site which helps amateur sports clubs plan their recurring workouts/practices during the season. To do this, given the start date of the season, and the number of weeks, it needs to figure out all of the days in that range.</p>
-<pre><code class="php">function GenWorkoutDates()
-{
-
-   global $SeasonStartDate, $WorkoutDate, $WeeksInSeason;
-
-   $TempDate = explode(&#34;/&#34;, $SeasonStartDate);
-
-   for ($i = 1; $i &lt;= $WeeksInSeason; $i++)
-   {
-     for ($j = 1; $j &lt;= 7; $j++)
-     {
-
-	   $MonthName = substr(&#34;JanFebMarAprMayJunJulAugSepOctNovDec&#34;, $TempDate[0] * 3 - 3, 3);
-
-       $WorkoutDate[$i][$j] = $MonthName . &#34; &#34; . $TempDate[1] . &#34;  &#34;;
-       $TempDate[1] += 1;
-
-
-       switch ( $TempDate[0] )
-	   {
-     case 9:
-	   case 4:
-	   case 6:
-	   case 11:
-	     $DaysInMonth = 30;
-	     break;
-
-	   case 2:
-     	 $DaysInMonth = 28;
-
-	     switch ( $TempDate[2] )
-	     {
-	     case 2012:
-	     case 2016:
-	     case 2020:
-	     	$DaysInMonth = 29;
-	        break;
-
-	     default:
-	       $DaysInMonth = 28;
-	       break;
-	     }
-
-	     break;
-
-	   default:
-	     $DaysInMonth = 31;
-	     break;
-	   }
-
-	   if ($TempDate[1] &gt; $DaysInMonth)
-	   {
-	     $TempDate[1] = 1;
-	     $TempDate[0] += 1;
-	     if ($TempDate[0] &gt; 12)
-	     {
-	       $TempDate[0] = 1;
-	       $TempDate[2] += 1;
-	     }
-	   }
-     }
-   }
-}</code></pre>
-
-<p>I do enjoy that PHP’s string-splitting function is called <code>explode</code>. That’s not a WTF. More functions should be called <code>explode</code>.</p>
-
-<p>This method of figuring out the month name, though: </p>
-
-<p><code>$MonthName = substr(&#34;JanFebMarAprMayJunJulAugSepOctNovDec&#34;, $TempDate[0] * 3 - 3, 3);</code></p>
-
-<p>I want to hate it, but I’m impressed with it.</p>
-
-<p>From there, we have lovely hard-coded leap years, the “Thirty days has September…” poem implemented as a switch statement, and then that lovely rollover calculation for the end of a month (and the end of the year).</p>
-
-<p>“I’m not a PHP developer,” Bob writes. “But I know how to use Google.” After some googling, he replaced this block of code with a 6-line version that uses built-in date handling functions.</p>
-<!-- Easy Reader Version: Date mangling, entry #4751. Supplies are running low. We might not survive the winter. -->
-<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
-<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<div>
-	<img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	Continuously monitor your servers for configuration changes, and report when there&#39;s configuration drift. <a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;utm_medium=Footerad&amp;utm_term=2018&amp;utm_content=Monitor&amp;utm_campaign=Otter_Footer">Get started with Otter</a> today!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=nt5AZ3kwnrw:pBSXDj589PI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/nt5AZ3kwnrw" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"41";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:66:"https://thedailywtf.com/articles/comments/give-your-date-a-workout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:29:"CodeSOD: UnINTentional Errors";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/unintentional-errors";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 04 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/unintentional-errors";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3479:"<p>Data type conversions are one of those areas where we have rich, well-supported, well-documented features built into most languages. Thus, we also have endless attempts for people to re-implement them. Or worse, wrap a built-in method in a way which makes everything less clear.</p>
-
-<p><strong>Mindy</strong> encountered this.</p>
-<pre><code class="java">/* For converting (KEY_MSG_INPUT) to int format. */
-public static int numberToIntFormat(String value) {
-  int returnValue = -1;    	
-  if (!StringUtil.isNullOrEmpty(value)) {
-    try {
-      int temp = Integer.parseInt(value);
-      if (temp &gt; 0) {
-        returnValue = temp;
-      }
-    } catch (NumberFormatException e) {}
-  }    	
-  return returnValue;
-}</code></pre>
-
-<p>The <code>isNullOrEmpty</code> check is arguably pointless, here. <em>Any</em> invalid input string, including null or empty ones, would cause <code>parseInt</code> to throw a <code>NumberFormatException</code>, which we’re already catching. Of course, we’re catching and <em>ignoring it</em>.</p>
-
-<p>That’s <em>assuming</em> that <code>StringUtil.isNullOrEmpty</code> does what we think it does, since while there are third party Java libraries that offer that functionality, it’s not a built-in class (and do we really think the culprit here was using libraries?). Who knows what it actually does.</p>
-
-<p>And, another useful highlight: note how we check <code>if (temp &gt; 0)</code>? Well, this is a problem. Not only does the downstream code handle negative numbers, –1 is a perfectly <em>reasonable</em> value, which means when this method takes <code>-10</code> and returns <code>-1</code>, what it’s actually done is passed incorrect but valid data back up the chain. And since any errors were swallowed, no one knows if this was intentional or not.</p>
-
-<p>This method wasn’t called in any context relating to <code>KEY_MSG_INPUT</code>, but it was called <em>everywhere</em>, as it’s one of those utility methods that finds new uses any time someone wants to convert a string into a number. Due to its use in pretty much every module, fixing this is considered a &#34;high risk&#34; change, and has been scheduled for sometime in the 2020s.</p>
-<!-- Easy Reader Version: There's no task so simple it can't be done wrong. -->
-<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
-<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=ptwP0GhZQ8U:8MAnncT8Vuw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/ptwP0GhZQ8U" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"27";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:62:"https://thedailywtf.com/articles/comments/unintentional-errors";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:31:"CodeSOD: Boxing with the InTern";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/boxing-with-the-intern";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 03 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/boxing-with-the-intern";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5485:"<p>A few years ago, <strong>Naomi</strong> did an internship with Initech. Before her first day, she was very clear on what her responsibilities would be: she&#39;d be on a team modernizing an older product called &#34;Gem&#34; (no relation to Ruby libraries).</p>
-<p>By the time her first day rolled around, however, Initech had new priorities. There were a collection of fires on some hyperspecific internal enterprise tool, and everyone was running around and screaming about the apocalypse while dealing with that. Except Naomi, because nobody had any time to bring the intern up to speed on this disaster. Instead, she was given a new priority: just <em>maintain</em> Gem. And no, she wouldn&#39;t have a mentor. For the next six months, Naomi <em>was</em> the Gem support team.</p>
-<p>&#34;Start by looking at the code quality metrics,&#34; was the advice she was given.</p>
-<p>It was bad advice. First, while Initech had installed an automated code review tool in their source control system, they weren&#39;t <em>using</em> the tool. It had started crashing instead of outputting a report six years ago. Nobody had noticed, or perhaps nobody had cared. Or maybe they just didn&#39;t like getting bad news, because once Naomi had the tool running again, the report was full of bad news.</p>
-<p>A huge mass of the code was reimplemented copies of the standard library, &#34;tuned for performance&#34;, which meant instead of a sensible implementation it was a pile of 4,000 line functions wrapping around massive switch statements. The linter didn&#39;t catch that they were parsing XML using regular expressions, but Naomi spotted that and wisely decided not to touch that bit.</p>
-<p>What she did find, and fix, was this pattern:</p>
-<pre><code class="language-java"><div><span class="hljs-keyword">private</span> Boolean isSided;
-<span class="hljs-comment">// dozens more properties</span>
-<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">GemGeometryEntryPoint</span><span class="hljs-params">(GemGeometryEntryPoint gemGeometryEntryPoint)</span> </span>{
-    <span class="hljs-keyword">this</span>.isSided = gemGeometryEntryPoint.isSided == <span class="hljs-keyword">null</span> ? <span class="hljs-keyword">null</span> : <span class="hljs-keyword">new</span> Boolean(gemGeometryEntryPoint.isSided);
-    <span class="hljs-comment">// and so on, for those dozens of properties</span>
-}
-</div></code></pre>
-<p>Java has <em>two</em> boolean types. The <code>Boolean</code> <em>reference</em> type, and <code>boolean</code> primitive type. The <code>boolean</code> is not a full-fledged object, and thus is smaller in memory and faster to allocate. The <code>Boolean</code> is a full class implementation, with all the overhead contained within. A Java developer will generally need to use both, as if you want a <em>list</em> of boolean values, you need to &#34;box&#34; any primitives into <code>Boolean</code> objects.</p>
-<p>I say <em>generally</em> need both, because Naomi&#39;s predecessors decided that worrying about boxing was complicated, so they <em>only</em> used the reference types. There wasn&#39;t a <code>boolean</code> or an <code>int</code> to be found, just <code>Boolean</code>s and <code>Integer</code>s. Maybe they just thought &#34;primitive&#34; meant &#34;legacy&#34;?</p>
-<p>You can&#39;t convert a <code>null</code> into a boxed type, so <code>new Boolean(null)</code> would throw an exception. Thus, the ternary check in the code above. At no point did anyone think that &#34;hey, we&#39;re doing a null check on pretty much every variable access&#34; mean that there was something wrong in the code.</p>
-<p>The bright side to this whole thing was that the unit tests were exemplary. A few hours with <code>sed</code> meant that Naomi was able to switch most everything to primitive types, confirm that she hadn&#39;t introduced any regressions in the process, and even demonstrated that using primitives greatly improved performance, as it cut down on heap memory allocations. The downside was replacing all those ternaries with lines like <code>this.isSided = other.gemGeometryEntryPoint.isSided</code> didn&#39;t look nearly as impressive.</p>
-<p>Of course, changing that many lines of code in a single commit triggered some alarms, which precipitated a mini-crisis as no one knew what to do when the intern submitted a 15,000 line commit.</p>
-<p>Naomi adds: &#34;Mabye null was supposed to represent <code>FILE_NOT_FOUND</code>?&#34;</p>
-<!-- Easy Reader Version: It was Overtern The Box or Boxing with the InTern -->
-<div>
 	<img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
 	Forget logs. Next time you&#39;re struggling to replicate error, crash and performance issues in your apps - Think <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Raygun</a>! Installs in minutes. <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Learn more.</a>
 </div>
 <div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=a_PZc7QwlXk:EuDlFgxgh3M:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/a_PZc7QwlXk" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"30";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:64:"https://thedailywtf.com/articles/comments/boxing-with-the-intern";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Alex Papadimoulis";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:26:"Classic WTF: Hyperlink 2.0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:58:"https://thedailywtf.com/articles/classic-wtf-hyperlink-2-0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"Feature Articles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 02 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:58:"https://thedailywtf.com/articles/classic-wtf-hyperlink-2-0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3320:"<blockquote>It&#39;s Labor Day in the US, where we celebrate the workers of the world by having a barbecue. Speaking of work, in these days of web frameworks and miles of unnecessary JavaScript to do basic things on the web, let&#39;s look back at a simpler time, where we still used server-side code and miles of unnecessary JavaScript to do basic things on the web. <a href="//thedailywtf.com/articles/Hyperlink_2_0x2e_0">Original</a>. --<strong>Remy</strong></blockquote>
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=XOWx-B-66l4:bUprqCXxaoU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/XOWx-B-66l4" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"22";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:61:"https://thedailywtf.com/articles/comments/i-see-what-happened";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:32:"Error&#039;d: The WTF Experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/the-wtf-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 11 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/the-wtf-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2730:"<p>&#34;As it turns out, they&#39;ve actually been singing <i>Purple Haze</i> before the start of all of those sportsball games,&#34; <strong>Adam</strong> writes.
+</p><blockquote><p><a href="#Pic-2"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-2.png"/></a></p><p> </p></blockquote>
 
-<p>For those of you who haven&#39;t upgraded to Web 2.0 yet, today&#39;s submission from <b>Daniel</b> is a perfect example of what you&#39;re missing out on. Since the beginning of the Web (the &#34;1.0 days&#34;), website owners have always wanted to know who was visiting their website, how often, and when. Back then, this was accomplished by recording each website &#34;hit&#34; in a log file and running a report on the log later. 
-</p><p>But the problem with this method in Web 2.0 is that people don&#39;t use <i>logs</i> anymore; they use <i>blogs</i>, and everyone knows that blogs are a pretty stupid way of tracking web traffic. Fortunately, Daniel&#39;s colleagues developed an elegant, clever, and -- most importantly -- &#34;AJAX&#34; way of solving this problem. Instead of being coded in HTML pages, all hyperlinks are assigned a numeric identifier and kept in a database table. This identifier is then used on the HTML pages within an anchor tag: 
-</p><blockquote>
-<p></p><pre>&lt;a href=&#34;Javascript: followLink(124);&#34;&gt;View Products&lt;/a&gt;</pre></blockquote>
-<p>When the user clicks on the hyperlink, the followLink() Javascript function is executed and the following occur: 
-</p><ul style="list-style: disc">
-<li>a translucent layer (DIV) is placed over the entire page, causing it to appear &#34;grayed out&#34;, and ... 
-</li><li>a &#34;please wait&#34; layer is placed on top of that, with an animated pendulum swinging back and forth, then ... 
-</li><li>the XmlHttpRequest object is used to call the &#34;GetHyperlink&#34; web service which, in turn ... 
-</li><li>opens a connection to the database server to ... 
-</li><li>log the request in the RequestedHyperlinks table and ... 
-</li><li>retrieves the URL from the Hyperlinks table, then ... 
-</li><li>returns it to the client script, which then ... 
-</li><li>sets the window.location property to the URL retrieved, which causes ... 
-</li><li>the user to be redirected to the appropriate page </li></ul>
-<p>Now <i>that&#39;s</i> two-point-ohey.</p><div>
-	<img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	Continuously monitor your servers for configuration changes, and report when there&#39;s configuration drift. <a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;utm_medium=Footerad&amp;utm_term=2018&amp;utm_content=Monitor&amp;utm_campaign=Otter_Footer">Get started with Otter</a> today!
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=yysB0rHIvpw:aIbX3sJxXQg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/yysB0rHIvpw" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"11";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:67:"https://thedailywtf.com/articles/comments/classic-wtf-hyperlink-2-0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"Error&#039;d: Resistant to Change";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:52:"https://thedailywtf.com/articles/resistant-to-change";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 30 Aug 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:52:"https://thedailywtf.com/articles/resistant-to-change";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2751:"<p><strong>Tom H.</strong> writes, &#34;They got rid of their old, outdated fax machine, but updating their website? Yeah, that might take a while.&#34;
-</p><blockquote><p><a href="#Pic-4"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-4.png"/></a></p><p> </p></blockquote>
+<p><strong>Andrew C.</strong> writes, &#34;When you buy from &#39;Best Pool Supplies&#39;, make no mistake...you&#39;re going to pay for that level of quality.&#34;
+</p><blockquote><p><a href="#Pic-1"><img border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-1.png"/></a></p><p> </p></blockquote>
 
-<p>&#34;In casinos, they say the house always wins. In this case, when I wanted to cash in my winnings, I gambled and lost against Windows 7 Professional,&#34; <strong>Michelle M.</strong> wrote.
-</p><blockquote><p><a href="#Pic-1"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-1.jpg"/></a></p><p> </p></blockquote>
+<p><strong>Jared</strong> wrote, &#34;Pulling invalid data is forgiveable, but using a loop is not.&#34;
+</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-3.jpg"/></a></p><p> </p></blockquote>
 
-<p><strong>Martin</strong> writes, &#34;Wow! It&#39;s great to see Apple is going the extra mile by protecting my own privacy from myself!&#34;
-</p><blockquote><p><a href="#Pic-2"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-2.jpg"/></a></p><p> </p></blockquote>
+<p>&#34;VMware ESXi seems a little confused about how power state transitions work,&#34; writes <strong>Paul N.</strong>
+</p><blockquote><p><a href="#Pic-4"><img border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-4.png"/></a></p><p> </p></blockquote>
 
-<p>&#34;Yes, Amazon Photos, with my mouse clicks, I will fix you,&#34; wrote <strong>Amos B.</strong>
-</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-3.png"/></a></p><p> </p></blockquote>
+<p>&#34;At first I was annoyed I didn&#39;t get the job, but now I really want to go in for free and fix their systems for them!&#34; <strong>Mark</strong> wrote.
+</p><blockquote><p><a href="#Pic-5"><img border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-5.png"/></a></p><p> </p></blockquote>
 
-<p>&#34;When searches go wrong at AliExpress they want you to know these three things,&#34; <strong>Erwan R.</strong> wrote.
-</p><blockquote><p><a href="#Pic-5"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-5.png"/></a></p><p> </p></blockquote>
-
-<p><strong>Chris A.</strong> writes, &#34;It&#39;s like Authy is saying &#39;I have no idea what you just did, but, on the bright side, there weren`t any errors!&#39;&#34;
-</p><blockquote><p><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e378/Pic-6.png"/></a></p><p> </p></blockquote>
+<p><strong>Peter M.</strong> writes, &#34;Oh yes, Verizon! I am <u>very</u> excited! ...I&#39;m just having a difficult time defining why.&#34;
+</p><blockquote><p><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q4/e384/Pic-6.png"/></a></p><p> </p></blockquote>
 <div>
-	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
-	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
-</div>
-<div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=WD9DCSEw6EE:1EKxb0bHTno:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/WD9DCSEw6EE" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"11";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:61:"https://thedailywtf.com/articles/comments/resistant-to-change";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:35:"CodeSOD: Bassackwards Compatibility";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"https://thedailywtf.com/articles/bassackwards-compatibility";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 29 Aug 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:59:"https://thedailywtf.com/articles/bassackwards-compatibility";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1834:"<p>A long time ago, you built a web service. It was long enough ago that you chose XML as your serialization format. It worked fine, but before long, customers started saying that they’d really like to use JSON, so now you need to expose a slightly different, JSON-powered version of your API. To make it easy, you release a JSON client developers can drop into their front-ends.</p>
-
-<p><strong>Conor</strong> is one of those developers, and while examining the requests the client sent, he discovered a unique way of making your XML web-service JSON-friendly.</p>
-
-<p><code>{&#34;fetch&#34;:&#34;&lt;fetch version=&#39;1.0&#39;&gt;&lt;entity&gt;&lt;entityDescriptor id=&#39;10&#39;/&gt;…&lt;loadsMoreXML/&gt;&lt;/entity&gt;&lt;/fetch&gt;&#34;}</code></p>
-
-<p>Simplicity itself!</p>
-<!-- Easy Reader Version: What, XML is text, isn't it? --><div>
 	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
 	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">ProGet</a> supports your applications, Docker containers, and third-party packages, allowing you to enforce quality standards across all components. <a href="https://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Docker&amp;utm_campaign=ProGet_Footer">Download</a> and see how!
 </div>
 <div style="clear: left;"> </div><div class="feedflare">
-<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=J0UyBLfNftY:sqBuR9WHxCQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
-</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/J0UyBLfNftY" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"21";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:68:"https://thedailywtf.com/articles/comments/bassackwards-compatibility";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:46:"http://syndication.thedailywtf.com/TheDailyWtf";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:3:"hub";s:4:"href";s:32:"http://pubsubhubbub.appspot.com/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:4:"info";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:11:"thedailywtf";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://www.w3.org/2003/01/geo/wgs84_pos#";a:2:{s:3:"lat";a:1:{i:0;a:5:{s:4:"data";s:8:"41.36995";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"long";a:1:{i:0;a:5:{s:4:"data";s:10:"-81.862591";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:10:{s:12:"content-type";s:23:"text/xml; charset=UTF-8";s:4:"etag";s:27:"oGFC1yAVV09PiJRvNG3ZtZvlWOU";s:13:"last-modified";s:29:"Wed, 18 Sep 2019 19:17:51 GMT";s:16:"content-encoding";s:4:"gzip";s:4:"date";s:29:"Wed, 18 Sep 2019 19:18:40 GMT";s:7:"expires";s:29:"Wed, 18 Sep 2019 19:18:40 GMT";s:13:"cache-control";s:18:"private, max-age=0";s:22:"x-content-type-options";s:7:"nosniff";s:16:"x-xss-protection";s:13:"1; mode=block";s:6:"server";s:3:"GSE";}s:5:"build";s:14:"20190202031713";}
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=bNGUth_7hbo:ueL41tHJR90:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/bNGUth_7hbo" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"17";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:60:"https://thedailywtf.com/articles/comments/the-wtf-experience";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:27:"CodeSOD: Parse, Parse Again";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"https://thedailywtf.com/articles/parse-parse-again";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 10 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"https://thedailywtf.com/articles/parse-parse-again";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3602:"<p>Sometimes, a block of terrible code exists for a good reason. Usually, it exists because someone was lazy or incompetent, which while not a <em>good</em> reason, at least makes sense. Sometimes, it exists for a <em>stupid</em> reason.</p>
+
+<p><strong>Janet</strong>’s company recently bought another company, and now the new company had to be integrated into their IT operations. One of the little, tiny, minuscule known-issues in the new company’s system was that their logging was mis-configured. Instead of putting a new-line after each logging message, it put only a single space.</p>
+
+<p>That tiny problem was a little bit larger, as each log message was a JSON object. The whole point of logging out a single JSON document per line was that it would be easy to parse/understand the log messages, but since they were all on a single line, it was impossible to just do that.</p>
+
+<p>The developers at the acquired company were left with a choice: they could fix the glitch in the logging system so that it output a newline after each message, or they could just live with this. For some reason, they decided to live with it, and they came up with <em>this</em> solution for parsing the log files:</p>
+<pre><code class="python">def parse(string):
+  obs = []
+  j = &#34;&#34;
+  for c in string.split():
+    j += c
+    try:
+      obs.append(json.loads(j))
+      j = &#34;&#34;
+    except ValueError:
+      pass
+ 
+  return obs</code></pre>
+
+<p>This splits the string on spaces. Then, for each substring, it tries to parse it as a JSON object. If it succeeds, great. If it throws an exception, append the <em>next</em> substring to this one, and then try parsing again. Repeat until we’ve built a valid JSON document, than clear out the accumulator and repeat the process for all the rest of the messages. Eventually, return all the log messages parsed as JSON.</p>
+
+<p>As a fun side effect, <code>.split</code> is going to throw the spaces away, so when they <code>j += c</code>, if your log message looked like:</p>
+<pre><code class="json">{&#34;type&#34;: &#34;Error&#34;, &#34;message&#34;: &#34;Unable to parse JSON document&#34;}</code></pre>
+
+<p>After parsing that into JSON, the message becomes <code>UnabletoparseJSONdocument</code>.</p>
+
+<p>But at least they didn’t have to solve than newline bug.</p>
+<!-- Easy Reader Version: if this is an easy reader version, return it, otherwise append this to the easy reader version and then if it's an easy reader version return it otherwise… -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	Forget logs. Next time you&#39;re struggling to replicate error, crash and performance issues in your apps - Think <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Raygun</a>! Installs in minutes. <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Learn more.</a>
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=k31U-tW9yyY:r8bHthyjO6A:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/k31U-tW9yyY" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"24";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:59:"https://thedailywtf.com/articles/comments/parse-parse-again";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:41:"Coded Smorgasbord: Driven to Substraction";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/driven-to-substraction";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"Coded Smorgasbord";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 09 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:55:"https://thedailywtf.com/articles/driven-to-substraction";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:70018:"<p><strong>Deon</strong> (<a href="https://thedailywtf.com/articles/unstrung-manager">previously</a>) has some good news. His contract at Initrode is over, and he’s on his way out the door. But before he goes, he wants to share more of his pain with us.</p>
+
+<p>You may remember that the <code>StringManager</code> class had a bunch of data type conversions to numbers and dates. Well guess what, there’s also a <code>DateManager</code> class, which is another 1600 lines of methods to handle dates.</p>
+
+<p>As you might expect, there are a pile of re-invented conversion and parsing methods which do the same thing as the built-in methods. But there’s also utility methods to help us handle date-related operations.</p>
+<pre><code class="csharp">		public static int subStractFromCurrentDate(System.DateTime dateTimeParm) 
+		{
+			//get now
+			System.DateTime now = System.DateTime.Now;
+			//now compare days
+			int daysDifference  = now.Day - dateTimeParm.Day;
+			return daysDifference ;
+		}</code></pre>
+
+<p>Fun fact: the <code>Day</code> property returns the day of the month. So this method might “subStract”, but if these two dates fall in different months, we’re going to get unexpected results. </p>
+
+<p>One of the smaller string formatters included is this one:</p>
+<pre><code class="csharp">		public static string formatEnglishDate (System.DateTime inputDateTime) 
+		{
+			Hashtable _monthsInEnglishByMonthNumber = new Hashtable();
+			_monthsInEnglishByMonthNumber[1] = &#34;January&#34;;
+			_monthsInEnglishByMonthNumber[2] = &#34;February&#34;;
+			_monthsInEnglishByMonthNumber[3] = &#34;March&#34;;
+			_monthsInEnglishByMonthNumber[4] = &#34;April&#34;;
+			_monthsInEnglishByMonthNumber[5] = &#34;May&#34;;
+			_monthsInEnglishByMonthNumber[6] = &#34;June&#34;;
+			_monthsInEnglishByMonthNumber[7] = &#34;July&#34;;
+			_monthsInEnglishByMonthNumber[8] = &#34;August&#34;;
+			_monthsInEnglishByMonthNumber[9] = &#34;September&#34;;
+			_monthsInEnglishByMonthNumber[10] = &#34;October&#34;;
+			_monthsInEnglishByMonthNumber[11] = &#34;November&#34;;
+			_monthsInEnglishByMonthNumber[12] = &#34;December&#34;;
+
+			StringBuilder _dateBldr = new StringBuilder();
+			_dateBldr.Append(_monthsInEnglishByMonthNumber[inputDateTime.Month].ToString());
+			_dateBldr.Append(&#34; &#34;);
+			_dateBldr.Append(inputDateTime.Day.ToString());
+			_dateBldr.Append(&#34;, &#34;);
+			_dateBldr.Append(inputDateTime.Year.ToString());
+
+			return _dateBldr.ToString();
+		}</code></pre>
+
+<p>Among all the bad things implied here, I really like that they used a <code>Hashtable</code> as an array.</p>
+<pre><code class="csharp">        public static bool  currentDateIsFirstBusinessDateOfTheMonth 
+                            (
+                                Hashtable inputHolidayHash
+                            )
+        {
+            /*
+             * If current date is not a business date, then it cannot
+             * be the first business date of the month.
+             */
+            DateTime _currentDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+            _currentDate =
+                new DateTime(2010, 5, 6);
+            if (
+                    _currentDate.DayOfWeek == DayOfWeek.Saturday
+                    ||
+                    _currentDate.DayOfWeek == DayOfWeek.Sunday
+                    ||
+                    inputHolidayHash[_currentDate] != null
+                )
+                return false;
+
+            /*
+             * If current date is a business date, and if it is also
+             * the first calendar date of the month, then the
+             * current date is the first business date of the month.
+             */
+
+            DateTime _firstDayOfTheMonth =
+                _currentDate.AddDays(1 - _currentDate.Day);
+            if (_firstDayOfTheMonth == _currentDate)
+                return true;
+
+            /*
+             * If current date is a business date, but is not the 1st calendar
+             * date of the month, and, if, in stepping back day by day 
+             * from the current date,  we encounter a business day before 
+             * encountering the last calendar day of the preceding month, then the 
+             * current date is NOT the first business date of the month.
+            */
+            DateTime _tempDate = _currentDate.AddDays(-1);
+            while (_tempDate &gt;= _firstDayOfTheMonth)
+            {
+                if (
+                        _tempDate.DayOfWeek != DayOfWeek.Saturday
+                        &amp;&amp;
+                        _tempDate.DayOfWeek != DayOfWeek.Sunday
+                        &amp;&amp;
+                        inputHolidayHash[_tempDate] == null
+                    )
+                    return false;
+                _tempDate = _tempDate.AddDays(-1);
+            }
+            /*
+             * * If current date is a business date, but is not the 1st calendar
+             * date,and, if, in stepping back day by day from the current date, 
+             * we encounter no business day before encountering the 
+             * 1st calendar day of the month, then the current date 
+             * IS the first business date of the month.
+            */
+            return true;
+        }</code></pre>
+
+<p>This one has loads of comments, and honestly, I still have no idea what it’s doing. If it’s checking the <em>current</em> day, why does it need to cycle through other days? Why even ask that question, because clearly while debugging they hard-coded a testing date (<code>new DateTime(2010, 5, 6)</code>) and just left that in there.</p>
+
+<p>I’m not the only one getting confused. Check out this comment:</p>
+<pre><code class="csharp">
+        //@??
+        public static DateTime givenPeriodEndDateFindLastBusinessDateInPeriod
+                                (
+                                    DateTime inputPeriodEndDate
+                                    , Hashtable inputHolidayHash
+                                )
+        {
+          ...
+        }</code></pre>
+
+<p>And if you’re missing good old <code>StringManager</code>, don’t worry, we use it here:</p>
+<pre><code class="csharp">    /**
+		 * @description format date
+		 * */
+		public static string formatYYYYMMDD (System.DateTime inputDateTime) 
+		{
+			StringBuilder _bldr = new StringBuilder();
+			_bldr.Append(inputDateTime.Year.ToString());
+			_bldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Month.ToString(),
+															&#34;0&#34;,       // Zero-Fill
+															true,	   // Fill from left
+															2));        // String length
+
+			_bldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Day.ToString(),
+															&#34;0&#34;,       // Zero-Fill
+															true,	   // Fill from left
+															2));       // String length
+			return _bldr.ToString();
+		}</code></pre>
+
+<p>And all of this is from just about the first third of the code. I’m trying to keep to shorter methods before posting the whole blob of ugly. So with that in mind, what if you wanted to compare dates?</p>
+<pre><code class="csharp">		public static DateComparison date1ComparedToDate2(DateTime inputDate1, 
+															DateTime inputDate2)
+		{
+			if (inputDate1.Year &gt; inputDate2.Year) return DateComparison.gt;
+			if (inputDate1.Year &lt; inputDate2.Year) return DateComparison.lt;
+			if (inputDate1.DayOfYear &gt; inputDate2.DayOfYear) return DateComparison.gt;
+			if (inputDate1.DayOfYear &lt; inputDate2.DayOfYear) return DateComparison.lt;
+			return DateComparison.eq;
+		
+		}</code></pre>
+
+<p>Oh yeah, not only do we break the dates up into parts to compare them, we <em>also</em> have a custom enumerated type to represent the result of the comparison. And it’s not just dates, we do it with times, too.</p>
+<pre><code class="csharp">		public static DateComparison timestamp1ComparedToTimestamp2(DateTime inputTimestamp1, 
+																	DateTime inputTimestamp2)
+		{
+			if (inputTimestamp1.Year &gt; inputTimestamp2.Year) return DateComparison.gt;
+			if (inputTimestamp1.Year &lt; inputTimestamp2.Year) return DateComparison.lt;
+			if (inputTimestamp1.DayOfYear &gt; inputTimestamp2.DayOfYear) return DateComparison.gt;
+			if (inputTimestamp1.DayOfYear &lt; inputTimestamp2.DayOfYear) return DateComparison.lt;
+			if (inputTimestamp1.Hour &gt; inputTimestamp2.Hour) return DateComparison.gt;
+			if (inputTimestamp1.Hour &lt; inputTimestamp2.Hour) return DateComparison.lt;
+			if (inputTimestamp1.Minute &gt; inputTimestamp2.Minute) return DateComparison.gt;
+			if (inputTimestamp1.Minute &lt; inputTimestamp2.Minute) return DateComparison.lt;
+			if (inputTimestamp1.Second &gt; inputTimestamp2.Second) return DateComparison.gt;
+			if (inputTimestamp1.Second &lt; inputTimestamp2.Second) return DateComparison.lt;
+			if (inputTimestamp1.Millisecond &gt; inputTimestamp2.Millisecond) return DateComparison.gt;
+			if (inputTimestamp1.Millisecond &lt; inputTimestamp2.Millisecond) return DateComparison.lt;
+			return DateComparison.eq;
+		
+		}</code></pre>
+
+<p>Initrode has a bright future with this product. Deon adds:</p>
+
+<blockquote>
+<p>The contractor who is replacing me has rolled his own piece of software to try and replace Entity Framework because his version is “better” despite being written around a decade ago, so I’m sure he’ll fit right in.</p>
+</blockquote>
+
+<p>The future’s so bright I’ve gotta wear shades.</p>
+
+<p>Here’s the full block, if you want to suffer through that:</p>
+<pre><code class="csharp">/*
+  Changes Log:
+
+  @01 - 01/23/2009 - {some initials were here} - Improve performance of approval screens.
+*/
+using System;
+using System.Collections;
+using System.Globalization; 
+using System.Text;
+
+namespace initrode.utilities
+{
+	/// &lt;summary&gt;
+	/// Summary description for DateManager.
+	/// &lt;/summary&gt;
+	public class DateManager
+	{
+		public enum	DateComparison {gt = 1, eq = 0, lt = -1}
+        public enum DateTimeParts
+        {
+            dateOnly
+            , dateAndTime
+            , dateTimeAndAMOrPM
+        }
+						
+		/*
+			* @description return the days difference from today date
+			* @parm int amount of days in the past
+			* @return int the amount of days difference
+			* 
+			**/
+		public static int subStractFromCurrentDate(System.DateTime dateTimeParm) 
+		{
+			//get now
+			System.DateTime now = System.DateTime.Now;
+			//now compare days
+			int daysDifference  = now.Day - dateTimeParm.Day;
+			return daysDifference ;
+		}
+		/**
+		 * @description format date
+		 * */
+		public static string format (System.DateTime dateTime, string format) 
+		{
+			string dateFormat;
+			dateFormat = dateTime.ToString(format,DateTimeFormatInfo.InvariantInfo);
+			return dateFormat;
+		}
+        public static DateTime  convertDateStringInSlashedFormatToDateTime
+                                (
+                                    string inputDateStringInSlashedFormat
+                                )
+        {
+            inputDateStringInSlashedFormat =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    inputDateStringInSlashedFormat
+                );
+            ArrayList _dateParts =
+                initrode.utilities.StringManager.splitIntoArrayList
+                (
+                    inputDateStringInSlashedFormat
+                    ,@&#34;/&#34;
+                );
+            if (_dateParts.Count != 3) return new DateTime(1900, 1, 1);
+
+            string _monthString =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _dateParts[0].ToString()
+                );
+            if (
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _monthString
+                    ) == false
+                )
+                new DateTime(1900, 1, 1);
+
+            string _dayString =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _dateParts[1].ToString()
+                );
+            if (
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _dayString
+                    ) == false
+                )
+                new DateTime(1900, 1, 1);
+
+            string _yearString =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _dateParts[2].ToString()
+                );
+            if (
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _yearString
+                    ) == false
+                )
+                new DateTime(1900, 1, 1);
+            return new DateTime
+                        (
+                            Convert.ToInt32
+                            (
+                                _yearString
+                            )
+                            , Convert.ToInt32
+                            (
+                                _monthString
+                            )
+                            , Convert.ToInt32
+                            (
+                                _dayString
+                            )
+                        );
+        }            
+		/**
+		 * @description format date
+		 * */
+		public static string formatEnglishDate (System.DateTime inputDateTime) 
+		{
+			Hashtable _monthsInEnglishByMonthNumber = new Hashtable();
+			_monthsInEnglishByMonthNumber[1] = &#34;January&#34;;
+			_monthsInEnglishByMonthNumber[2] = &#34;February&#34;;
+			_monthsInEnglishByMonthNumber[3] = &#34;March&#34;;
+			_monthsInEnglishByMonthNumber[4] = &#34;April&#34;;
+			_monthsInEnglishByMonthNumber[5] = &#34;May&#34;;
+			_monthsInEnglishByMonthNumber[6] = &#34;June&#34;;
+			_monthsInEnglishByMonthNumber[7] = &#34;July&#34;;
+			_monthsInEnglishByMonthNumber[8] = &#34;August&#34;;
+			_monthsInEnglishByMonthNumber[9] = &#34;September&#34;;
+			_monthsInEnglishByMonthNumber[10] = &#34;October&#34;;
+			_monthsInEnglishByMonthNumber[11] = &#34;November&#34;;
+			_monthsInEnglishByMonthNumber[12] = &#34;December&#34;;
+
+			StringBuilder _dateBldr = new StringBuilder();
+			_dateBldr.Append(_monthsInEnglishByMonthNumber[inputDateTime.Month].ToString());
+			_dateBldr.Append(&#34; &#34;);
+			_dateBldr.Append(inputDateTime.Day.ToString());
+			_dateBldr.Append(&#34;, &#34;);
+			_dateBldr.Append(inputDateTime.Year.ToString());
+
+			return _dateBldr.ToString();
+		}
+        public static bool currentDateIsFirstSaturdayOfTheMonth()
+        {
+            /*
+             * If current date is not a business date, then it cannot
+             * be the first business date of the month.
+             */
+            DateTime _currentDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+            if (
+                    _currentDate.DayOfWeek == DayOfWeek.Saturday
+                    &amp;&amp;
+                    _currentDate.Day &lt;= 7
+                )
+                return true;
+
+            return false;
+        }
+
+        public static bool  currentDateIsFirstBusinessDateOfTheMonth 
+                            (
+                                Hashtable inputHolidayHash
+                            )
+        {
+            /*
+             * If current date is not a business date, then it cannot
+             * be the first business date of the month.
+             */
+            DateTime _currentDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+            _currentDate =
+                new DateTime(2010, 5, 6);
+            if (
+                    _currentDate.DayOfWeek == DayOfWeek.Saturday
+                    ||
+                    _currentDate.DayOfWeek == DayOfWeek.Sunday
+                    ||
+                    inputHolidayHash[_currentDate] != null
+                )
+                return false;
+
+            /*
+             * If current date is a business date, and if it is also
+             * the first calendar date of the month, then the
+             * current date is the first business date of the month.
+             */
+
+            DateTime _firstDayOfTheMonth =
+                _currentDate.AddDays(1 - _currentDate.Day);
+            if (_firstDayOfTheMonth == _currentDate)
+                return true;
+
+            /*
+             * If current date is a business date, but is not the 1st calendar
+             * date of the month, and, if, in stepping back day by day 
+             * from the current date,  we encounter a business day before 
+             * encountering the last calendar day of the preceding month, then the 
+             * current date is NOT the first business date of the month.
+            */
+            DateTime _tempDate = _currentDate.AddDays(-1);
+            while (_tempDate &gt;= _firstDayOfTheMonth)
+            {
+                if (
+                        _tempDate.DayOfWeek != DayOfWeek.Saturday
+                        &amp;&amp;
+                        _tempDate.DayOfWeek != DayOfWeek.Sunday
+                        &amp;&amp;
+                        inputHolidayHash[_tempDate] == null
+                    )
+                    return false;
+                _tempDate = _tempDate.AddDays(-1);
+            }
+            /*
+             * * If current date is a business date, but is not the 1st calendar
+             * date,and, if, in stepping back day by day from the current date, 
+             * we encounter no business day before encountering the 
+             * 1st calendar day of the month, then the current date 
+             * IS the first business date of the month.
+            */
+            return true;
+        }
+        //@??
+        public static DateTime givenPeriodEndDateFindLastBusinessDateInPeriod
+                                (
+                                    DateTime inputPeriodEndDate
+                                    , Hashtable inputHolidayHash
+                                )
+        {
+            if (inputHolidayHash[inputPeriodEndDate] == null)
+                return inputPeriodEndDate;
+            DateTime _tempDate = inputPeriodEndDate.AddDays(-1);
+
+            while (
+                        (
+                            _tempDate.DayOfWeek == DayOfWeek.Saturday
+                            ||
+                            _tempDate.DayOfWeek == DayOfWeek.Sunday
+                        )
+                        ||
+                        inputHolidayHash[_tempDate] != null
+                    )
+            {
+                _tempDate = _tempDate.AddDays(-1);
+            }
+            return _tempDate;
+        }
+
+		/**
+		 * @description format date
+		 * */
+        public static string convertDateTimeToSQLDate
+                                (
+                                    DateTime inputDateTime
+                                )
+        {
+            StringBuilder _sqlDateBldr =
+                new StringBuilder();
+            _sqlDateBldr.AppendFormat
+            (
+                &#34;{0}/{1}/{2}&#34;
+                ,inputDateTime.Month.ToString()
+                ,inputDateTime.Day.ToString()
+                ,inputDateTime.Year.ToString()
+            );
+            return _sqlDateBldr.ToString();
+        }
+        /**
+         * @description format date
+         * */
+        public static string convertDateTimeToDB2Timestamp
+                                (
+                                    DateTime inputDateTime
+                                )
+        {
+            StringBuilder _sqlDateBldr =
+                new StringBuilder();
+            _sqlDateBldr.AppendFormat
+            (
+                &#34;{0}-{1}-{2}.{3}:{4}:{5}.{6}&#34;
+                , inputDateTime.Year.ToString()
+                ,   initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Month.ToString()
+                        ,&#34;0&#34;
+                        ,true  //boolFromLeft
+                        ,2
+                    )
+                ,   initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Day.ToString()
+                        ,&#34;0&#34;
+                        ,true  //boolFromLeft
+                        ,2
+                    )
+                , initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Hour.ToString()
+                        ,&#34;0&#34;
+                        ,true  //boolFromLeft
+                        ,2
+                    )
+                , initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Minute.ToString()
+                        ,&#34;0&#34;
+                        ,true  //boolFromLeft
+                        ,2
+                    )
+                ,   initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Second.ToString()
+                        , &#34;0&#34;
+                        , true  //boolFromLeft
+                        , 2
+                    )
+                ,   initrode.utilities.StringManager.Fill
+                    (
+                        inputDateTime.Millisecond.ToString()
+                        , &#34;0&#34;
+                        , true  //boolFromLeft
+                        , 2
+                    )
+            );
+            return _sqlDateBldr.ToString();
+        }
+
+		/**
+		 * @description format date
+		 * */
+		public static string formatYYYYMMDD (System.DateTime inputDateTime) 
+		{
+			StringBuilder _bldr = new StringBuilder();
+			_bldr.Append(inputDateTime.Year.ToString());
+			_bldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Month.ToString(),
+															&#34;0&#34;,       // Zero-Fill
+															true,	   // Fill from left
+															2));        // String length
+
+			_bldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Day.ToString(),
+															&#34;0&#34;,       // Zero-Fill
+															true,	   // Fill from left
+															2));       // String length
+			return _bldr.ToString();
+		}
+		//@01
+		public static DateTime givenDateGetPeriodStartDate(DateTime inputDate1)
+		{
+			if (inputDate1.Day &gt; 15) return new DateTime(inputDate1.Year,inputDate1.Month,16);
+			return new DateTime(inputDate1.Year,inputDate1.Month,1);
+		}
+		//@01
+		public static DateTime givenDateGetPeriodEndDate(DateTime inputDate1)
+		{
+			if (inputDate1.Day &lt; 16) return new DateTime(inputDate1.Year,inputDate1.Month,15);
+			inputDate1 = inputDate1.AddMonths(1);
+			inputDate1 = new DateTime(inputDate1.Year,inputDate1.Month,1).AddDays(-1);
+			return inputDate1;
+		}
+
+		/**
+		 * @description add days to a date
+		 * */
+		public static DateTime addDays (DateTime dateTime, int days) 
+		{
+			DateTime newDate = dateTime.AddDays(days);
+			return newDate;
+		}
+		/** 
+		 * @description get first day of the  month from mm-dd-yyyy formatted string
+		 * **/
+		public static DateTime getFirstDayofTheMonthFromMM_DD_YYYYFormattedString(
+									string inputDateTimeInMM_DD_YYYYFormatString) 
+		{
+			if (initrode.utilities.StringManager.IsValidDateInMM_DD_YYYYFormat(inputDateTimeInMM_DD_YYYYFormatString) == false)
+			{
+				return initrode.utilities.DateManager.getFirstDayofTheCurrentMonth();
+			}
+			return initrode.utilities.DateManager.getFirstDayofTheMonth(Convert.ToDateTime(inputDateTimeInMM_DD_YYYYFormatString));
+		}
+
+
+		/** 
+		 * @description get first day of the  month
+		 * **/
+		public static DateTime getFirstDayofTheMonth(System.DateTime inputDateTime) 
+		{
+			return new DateTime(inputDateTime.Year,
+								inputDateTime.Month,
+								1);
+		}
+
+        public static DateTime  convertTimestampOrDateInAnyStringFormatToDateTime
+                                (
+                                    string inputTimestampOrDateInAnyStringFormat
+                                )
+        {
+            DateTime _returnDateTime = 
+                new DateTime(1900, 1, 1);
+            ArrayList _splitDateTimeParts = new ArrayList();
+            inputTimestampOrDateInAnyStringFormat =
+                initrode.utilities.StringManager.StripWhitespaceFromEnds
+                (
+                    inputTimestampOrDateInAnyStringFormat
+                );
+            DateTimeParts _myDateTimeParts = DateTimeParts.dateOnly;
+            string _timeParts = &#34;&#34;;
+            string _amOrPMParts = &#34;&#34;;
+            if (inputTimestampOrDateInAnyStringFormat.Contains(&#34; &#34;))
+            {
+                _splitDateTimeParts =
+                    initrode.utilities.StringManager.splitIntoArrayList
+                    (
+                        inputTimestampOrDateInAnyStringFormat
+                        , &#34; &#34;
+                    );
+            }
+            else
+            {
+                _splitDateTimeParts.Add
+                (
+                    inputTimestampOrDateInAnyStringFormat
+                );
+            }
+            DateTime _dateOnly = new DateTime(1900, 1, 1);
+            switch (_splitDateTimeParts.Count)
+            {
+                case 1:
+                    _myDateTimeParts = DateTimeParts.dateOnly;
+                    _dateOnly =
+                        initrode.utilities.DateManager.convertDateInAnyStringFormatIntoDateTime
+                        (
+                            inputTimestampOrDateInAnyStringFormat
+                        );
+                    break;
+                case 2:
+                    _myDateTimeParts = DateTimeParts.dateAndTime;
+                    _dateOnly =
+                        initrode.utilities.DateManager.convertDateInAnyStringFormatIntoDateTime
+                        (
+                            _splitDateTimeParts[0].ToString()
+                        );
+                    _timeParts =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _splitDateTimeParts[1].ToString()
+                        );
+                    break;
+                case 3:
+                    _myDateTimeParts = DateTimeParts.dateTimeAndAMOrPM;
+                    _dateOnly =
+                        initrode.utilities.DateManager.convertDateInAnyStringFormatIntoDateTime
+                        (
+                            _splitDateTimeParts[0].ToString()
+                        );
+                    _timeParts =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _splitDateTimeParts[1].ToString()
+                        );
+                    _amOrPMParts =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _splitDateTimeParts[2].ToString()
+                        ).ToUpper();
+
+                    break;
+                default:
+                    return _returnDateTime;
+            }
+            if (_myDateTimeParts == DateTimeParts.dateOnly) return _dateOnly;
+            if (_dateOnly == new DateTime(1900, 1, 1)) return _returnDateTime;
+
+            if (
+                    _myDateTimeParts == DateTimeParts.dateTimeAndAMOrPM
+                    &amp;&amp;
+                    _amOrPMParts.CompareTo(&#34;AM&#34;) != 0
+                    &amp;&amp;
+                    _amOrPMParts.CompareTo(&#34;PM&#34;) != 0
+                ) return _returnDateTime;
+                
+            switch (_myDateTimeParts)
+            {
+                case DateTimeParts.dateAndTime:
+                return  initrode.utilities.DateManager.convertTimeInStringFormatAlongWithDateOnlyDateTimeIntoDateTime
+                        (
+                            _timeParts //string inputStrTime
+                            , false //bool inputAMOrPMFormat
+                            , &#34;&#34; //string inputAMOrPM
+                            , _dateOnly //DateTime inputDateOnlyDateTime
+                        );
+                case DateTimeParts.dateTimeAndAMOrPM:
+                return initrode.utilities.DateManager.convertTimeInStringFormatAlongWithDateOnlyDateTimeIntoDateTime
+                        (
+                            _timeParts //string inputStrTime
+                            , true //bool inputAMOrPMFormat
+                            , _amOrPMParts //string inputAMOrPM
+                            , _dateOnly //DateTime inputDateOnlyDateTime
+                        );
+            }
+            return _returnDateTime;
+        }
+        public static DateTime convertTimeInStringFormatAlongWithDateOnlyDateTimeIntoDateTime
+                                (
+                                    string inputStrTime
+                                    ,bool inputAMOrPMFormat
+                                    ,string inputAMOrPM
+                                    ,DateTime inputDateOnlyDateTime
+                                )
+        {
+            DateTime _returnDateTime = inputDateOnlyDateTime;
+            if (inputStrTime.Contains(&#34;:&#34;) == false) return _returnDateTime;
+
+            int _intMillisecondsPart = 0;
+            if (inputStrTime.Contains(&#34;.&#34;) == true)
+            {
+                ArrayList _millisecondsAndTimeParts =
+                    initrode.utilities.StringManager.splitIntoArrayList
+                    (
+                        inputStrTime
+                        ,@&#34;.&#34;
+                    );
+                if (_millisecondsAndTimeParts.Count != 2) return _returnDateTime;
+                string _strMillisecondsPart =
+                    initrode.utilities.StringManager.StripWhitespace
+                    (
+                        _millisecondsAndTimeParts[1].ToString()
+                    );
+                if (initrode.utilities.StringManager.IsValidNumber(_strMillisecondsPart) == true)
+                    _intMillisecondsPart =
+                        Convert.ToInt32
+                        (
+                            _strMillisecondsPart
+                        );
+                inputStrTime =
+                    initrode.utilities.StringManager.StripWhitespace
+                    (
+                        _millisecondsAndTimeParts[0].ToString()
+                    );
+            }
+            ArrayList _timeParts =
+                initrode.utilities.StringManager.splitIntoArrayList
+                (
+                    inputStrTime
+                    ,&#34;:&#34;
+                );
+            if (_timeParts.Count != 3) return _returnDateTime;
+
+
+            string _strHoursPart =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _timeParts[0].ToString()
+                );
+            string _strMinutesPart =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _timeParts[1].ToString()
+                );
+            string _strSecondsPart =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    _timeParts[2].ToString()
+                );
+            if (
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _strHoursPart
+                    ) == false
+                    ||
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _strMinutesPart
+                    ) == false
+                    ||
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        _strSecondsPart
+                    ) == false
+                ) return _returnDateTime;
+
+            int _intHoursPart =
+                Convert.ToInt32
+                (
+                    _strHoursPart
+                );
+            int _intMinutesPart =
+                Convert.ToInt32
+                (
+                    _strMinutesPart
+                );
+            int _intSecondsPart =
+                Convert.ToInt32
+                (
+                    _strSecondsPart
+                );
+
+            if (_intHoursPart &gt; 23) return _returnDateTime;
+            if (inputAMOrPMFormat == true)
+            {
+                if (_intHoursPart &gt; 12) return _returnDateTime;
+            }
+            if (_intMinutesPart &gt; 59) return _returnDateTime;
+            if (_intSecondsPart &gt; 59) return _returnDateTime;
+
+            if (inputAMOrPMFormat == true)
+            {
+                if (inputAMOrPM.CompareTo(&#34;PM&#34;) == 0)
+                {
+                    _intHoursPart += 12;
+                }
+                else if (
+                            inputAMOrPM.CompareTo(&#34;AM&#34;) == 0
+                            &amp;&amp;
+                            _intHoursPart == 12
+                            &amp;&amp;
+                            _intMinutesPart == 0
+                            &amp;&amp;
+                            _intSecondsPart == 0
+                            &amp;&amp;
+                            _intMillisecondsPart == 0
+                        )
+                {
+                    return new DateTime
+                                (
+                                    inputDateOnlyDateTime.Year
+                                    , inputDateOnlyDateTime.Month
+                                    , inputDateOnlyDateTime.Day
+                                );
+                }
+            }
+            _returnDateTime =
+                new DateTime
+                    (
+                        inputDateOnlyDateTime.Year
+                        , inputDateOnlyDateTime.Month
+                        , inputDateOnlyDateTime.Day
+                        , _intHoursPart
+                        , _intMinutesPart
+                        , _intSecondsPart
+                        , _intMillisecondsPart
+                    );
+            return _returnDateTime;
+        }
+        public static DateTime convertDateInAnyStringFormatIntoDateTime
+                                (
+                                    string inputDateInAnyStringFormat   
+                                )
+        {
+            DateTime _returnDateTime = new DateTime(1900, 1, 1);
+            inputDateInAnyStringFormat =
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    inputDateInAnyStringFormat
+                );
+            ArrayList _dateParts = new ArrayList();
+            string _strMonth = &#34;&#34;;
+            string _strDay = &#34;&#34;;
+            string _strYear = &#34;&#34;;
+            if (inputDateInAnyStringFormat.Contains(&#34;/&#34;) == true)
+            {
+                _dateParts =
+                    initrode.utilities.StringManager.splitIntoArrayList
+                    (
+                        inputDateInAnyStringFormat
+                        ,@&#34;/&#34;
+                    );
+                if (_dateParts.Count != 3) return _returnDateTime;
+                _strMonth =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[0].ToString()
+                        );
+                _strDay =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[1].ToString()
+                        );
+                _strYear =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[2].ToString()
+                        );
+                return initrode.utilities.DateManager.convertDateTimeStringPartsIntoDateTime
+                        (
+                            _strMonth
+                            ,_strDay
+                            ,_strYear
+                        );
+            }
+            if (inputDateInAnyStringFormat.Contains(&#34;-&#34;) == true)
+            {
+                _dateParts =
+                    initrode.utilities.StringManager.splitIntoArrayList
+                    (
+                        inputDateInAnyStringFormat
+                        , @&#34;-&#34;
+                    );
+                if (_dateParts.Count != 3) return _returnDateTime;
+                _strYear =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[0].ToString()
+                        );
+                _strMonth =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[1].ToString()
+                        );
+                _strDay =
+                        initrode.utilities.StringManager.StripWhitespace
+                        (
+                            _dateParts[2].ToString()
+                        );
+                return initrode.utilities.DateManager.convertDateTimeStringPartsIntoDateTime
+                        (
+                            _strMonth
+                            , _strDay
+                            , _strYear
+                        );
+            }
+            if (inputDateInAnyStringFormat.Length == 8)
+            {
+                _strYear =
+                    inputDateInAnyStringFormat.Substring(0, 4);
+                _strMonth =
+                    inputDateInAnyStringFormat.Substring(4, 2);
+                _strDay =
+                    inputDateInAnyStringFormat.Substring(6, 2);
+                return initrode.utilities.DateManager.convertDateTimeStringPartsIntoDateTime
+                        (
+                            _strMonth
+                            , _strDay
+                            , _strYear
+                        );
+            }
+            if (inputDateInAnyStringFormat.Length == 6)
+            {
+                _strYear =
+                    inputDateInAnyStringFormat.Substring(0, 2);
+                _strMonth =
+                    inputDateInAnyStringFormat.Substring(2, 2);
+                _strDay =
+                    inputDateInAnyStringFormat.Substring(4, 2);
+                return initrode.utilities.DateManager.convertDateTimeStringPartsIntoDateTime
+                        (
+                            _strMonth
+                            , _strDay
+                            , _strYear
+                        );
+            }
+            return _returnDateTime;
+        }
+        public static DateTime convertDateTimeStringPartsIntoDateTime
+                                (
+                                    string inputStrMonth
+                                    , string inputStrDay
+                                    , string inputStrYear
+                                )
+        {
+            DateTime _returnDateTime = new DateTime(1900, 1, 1);
+            if (
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        inputStrMonth
+                    ) == false
+                    ||
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        inputStrDay
+                    ) == false
+                    ||
+                    initrode.utilities.StringManager.IsValidNumber
+                    (
+                        inputStrYear
+                    ) == false
+                ) return _returnDateTime;
+
+            int _intYear =
+                Convert.ToInt32
+                (
+                    inputStrYear
+                );
+            if (_intYear &lt;= 100)
+            {
+                if (_intYear &gt;= 90)
+                {
+                    _intYear += 1900;
+                }
+                else
+                {
+                    _intYear += 2000;
+                }
+            }
+            inputStrYear = _intYear.ToString();
+
+            inputStrMonth = 
+                initrode.utilities.StringManager.Fill
+                (
+                    inputStrMonth
+                    ,&#34;0&#34;
+                    ,true //fromLeft
+                    ,2
+                );
+
+            inputStrDay = 
+                initrode.utilities.StringManager.Fill
+                (
+                    inputStrDay
+                    ,&#34;0&#34;
+                    ,true //fromLeft
+                    ,2
+                );
+
+            if (
+                    initrode.utilities.StringManager.IsValidDate
+                    (
+                        inputStrMonth
+                        ,inputStrDay
+                        ,inputStrYear
+                    ) == false
+                ) return _returnDateTime;
+
+            _returnDateTime =
+                new DateTime
+                    (
+                        Convert.ToInt32
+                        (
+                            inputStrYear
+                        )
+                        ,   Convert.ToInt32
+                            (
+                                inputStrMonth
+                            )
+                        , Convert.ToInt32
+                            (
+                                inputStrDay
+                            )
+                    );
+            return _returnDateTime;
+        }
+        public static DateTime convertDateIn_MM_Slash_DD_Slash_YYYY_FormatToDateTime
+                                (
+                                    string inputDateIn_MM_Slash_DD_Slash_YYYY_Format
+                                )
+        {
+            if (initrode.utilities.StringManager.IsValidDateInMM_DD_YYYYFormat(inputDateIn_MM_Slash_DD_Slash_YYYY_Format) == false)
+                return Convert.ToDateTime(&#34;1/1/1900&#34;);
+            ArrayList _dateParts =
+                initrode.utilities.StringManager.splitIntoArrayList
+                (
+                    inputDateIn_MM_Slash_DD_Slash_YYYY_Format
+                    ,&#34;/&#34;
+                );
+            string _mm = _dateParts[0].ToString();
+            if (_mm.Substring(0, 1).CompareTo(&#34;0&#34;) == 0)
+                _mm = _mm.Substring(1, 1);
+            string _dd = _dateParts[1].ToString();
+            if (_dd.Substring(0, 1).CompareTo(&#34;0&#34;) == 0)
+                _dd = _dd.Substring(1, 1);
+            string _yyyy = _dateParts[2].ToString();
+
+            return new DateTime
+                        (
+                                Convert.ToInt32
+                                (
+                                    _yyyy
+                                )
+                            ,   Convert.ToInt32
+                                (
+                                    _mm
+                                )
+                            ,   Convert.ToInt32
+                                (
+                                    _dd
+                                )
+                        );
+        }
+        public static bool  isInputtedDateTheLastBusinessDateOfTheMonth
+                            (
+                                DateTime inputDateTime
+                                , Hashtable inputHolidayHash
+                            )
+        {
+            inputDateTime =
+                new DateTime
+                    (
+                        inputDateTime.Year
+                        , inputDateTime.Month
+                        , inputDateTime.Day
+                    );
+
+            DateTime _lastBusinessDate =
+                initrode.utilities.DateManager.getLastBusinessDateOfMonthForInputtedDate
+                (
+                    inputDateTime
+                    ,inputHolidayHash
+                );
+            if (
+                    inputDateTime.Year == _lastBusinessDate.Year
+                    &amp;&amp; inputDateTime.Month == _lastBusinessDate.Month
+                    &amp;&amp; inputDateTime.Day == _lastBusinessDate.Day
+                )
+                return true;
+            return false;
+        }
+
+        public static DateTime  getLastBusinessDateOfMonthForInputtedDate
+                                (
+                                    DateTime inputDateTime
+                                    , Hashtable inputHolidayHash
+                                )
+        {
+            inputDateTime = 
+                new DateTime
+                    (
+                        inputDateTime.Year
+                        ,inputDateTime.Month
+                        ,inputDateTime.Day
+                    );
+            DateTime _lastBusinessDate;
+            if (
+                    initrode.utilities.DateManager.isInputtedDateABusinessDate
+                    (
+                        inputDateTime
+                        , inputHolidayHash
+                    ) == true
+                )
+                _lastBusinessDate =
+                    inputDateTime;
+            else
+                _lastBusinessDate =
+                    initrode.utilities.DateManager.getNextBusinessDateFromInputtedDate
+                    (
+                        inputDateTime
+                        , inputHolidayHash
+                    );
+            if (_lastBusinessDate.Month != inputDateTime.Month)
+            {
+                if (
+                        initrode.utilities.DateManager.isInputtedDateABusinessDate
+                        (
+                            inputDateTime
+                            , inputHolidayHash
+                        ) == true
+                    )
+                    return inputDateTime;
+                else
+                    return
+                        initrode.utilities.DateManager.getPreviousBusinessDateFromInputtedDate
+                        (
+                            inputDateTime
+                            , inputHolidayHash
+                        );
+            } 
+            DateTime _nextBusinessDate =
+                initrode.utilities.DateManager.getNextBusinessDateFromInputtedDate
+                (
+                    _lastBusinessDate
+                    , inputHolidayHash
+                );
+            while (_nextBusinessDate.Month == inputDateTime.Month)
+            {
+                _lastBusinessDate =
+                    _nextBusinessDate;
+
+                _nextBusinessDate =
+                    initrode.utilities.DateManager.getNextBusinessDateFromInputtedDate
+                    (
+                        _lastBusinessDate
+                        , inputHolidayHash
+                    );
+            }
+            return _lastBusinessDate;
+        }
+        public static DateTime  getPreviousBusinessDateFromInputtedDate
+                                (
+                                    DateTime inputDateTime
+                                    , Hashtable inputHolidayHash
+                                )
+        {
+            DateTime _dateWithTimeOmitted =
+                new DateTime
+                    (
+                        inputDateTime.Year
+                        , inputDateTime.Month
+                        , inputDateTime.Day
+                    );
+            _dateWithTimeOmitted =
+                _dateWithTimeOmitted.AddDays(-1);
+            while (
+                        initrode.utilities.DateManager.isInputtedDateABusinessDate
+                        (
+                            _dateWithTimeOmitted
+                            , inputHolidayHash
+                        ) == false
+                    )
+            {
+                _dateWithTimeOmitted =
+                    _dateWithTimeOmitted.AddDays(-1);
+            }
+            return _dateWithTimeOmitted;
+        }
+
+        public static DateTime  getNextBusinessDateFromInputtedDate
+                                (
+                                    DateTime inputDateTime
+                                    , Hashtable inputHolidayHash
+                                )
+        {
+            DateTime _dateWithTimeOmitted =
+                new DateTime
+                    (
+                        inputDateTime.Year
+                        , inputDateTime.Month
+                        , inputDateTime.Day
+                    );
+            _dateWithTimeOmitted.AddDays(1);
+            while   (
+                        initrode.utilities.DateManager.isInputtedDateABusinessDate
+                        (
+                            _dateWithTimeOmitted
+                            ,inputHolidayHash
+                        ) == false
+                    )
+            {
+                _dateWithTimeOmitted.AddDays(1);
+            }
+            return _dateWithTimeOmitted;
+        }
+
+        public static bool      isInputtedDateABusinessDate
+                                (
+                                    DateTime inputDateTime
+                                    ,Hashtable inputHolidayHash
+                                )
+        {
+            DateTime _dateWithTimeOmitted =
+                new DateTime
+                    (
+                        inputDateTime.Year
+                        ,inputDateTime.Month
+                        ,inputDateTime.Day
+                    );
+            if (_dateWithTimeOmitted.DayOfWeek == DayOfWeek.Saturday
+                || _dateWithTimeOmitted.DayOfWeek == DayOfWeek.Sunday)
+                return false;
+            foreach (DateTime _holidayDate in inputHolidayHash.Keys)
+            {
+                if (
+                        _holidayDate.Year == inputDateTime.Year
+                        &amp;&amp; _holidayDate.Month == inputDateTime.Month
+                        &amp;&amp; _holidayDate.Day == inputDateTime.Day
+                    )
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public static string    convertDateTimeToMMDDYYYY_WithoutSlashesOrDashes
+                                (
+                                    DateTime inputDateTime
+                                )
+        {
+            StringBuilder _dateBldr =
+                new StringBuilder();
+            _dateBldr.AppendFormat
+            (
+                &#34;{0}{1}{2}&#34;
+                , initrode.utilities.StringManager.Fill
+                (
+                    inputDateTime.Month.ToString()
+                    , &#34;0&#34;
+                    , true //from left
+                    , 2
+                )
+                ,initrode.utilities.StringManager.Fill
+                (
+                    inputDateTime.Day.ToString()
+                    , &#34;0&#34;
+                    , true //from left
+                    , 2
+                )
+                ,inputDateTime.Year.ToString()
+            );
+            return _dateBldr.ToString();
+        }
+        public static DateTime  convertMMDDYYYY_WithoutSlashesOrDashesToDateTime
+                                (
+                                    string inputMMDDYYYY
+                                )
+        {
+            inputMMDDYYYY = 
+                initrode.utilities.StringManager.StripWhitespace
+                (
+                    inputMMDDYYYY
+                );
+            StringBuilder _mmSlashddSlashyyyyBldr =
+                new StringBuilder();
+            _mmSlashddSlashyyyyBldr.AppendFormat
+            (
+                &#34;{0}/{1}/{2}&#34;
+                ,inputMMDDYYYY.Substring(0,2)
+                ,inputMMDDYYYY.Substring(2,2)
+                ,inputMMDDYYYY.Substring(4,4)
+            );
+            if (
+                    initrode.utilities.StringManager.IsValidDateInMM_DD_YYYYFormat
+                    (
+                        _mmSlashddSlashyyyyBldr.ToString()
+                    ) == false
+                )
+                return new DateTime(1900, 1, 1);
+            DateTime _returnDateTime =
+                new DateTime
+                    (
+                        Convert.ToInt32
+                        (
+                            inputMMDDYYYY.Substring(4, 4)
+                        )
+                        , Convert.ToInt32
+                        (
+                            inputMMDDYYYY.Substring(0, 2)
+                        )
+                        , Convert.ToInt32
+                        (
+                            inputMMDDYYYY.Substring(2, 2)
+                        )
+                    );
+            return _returnDateTime;
+        }
+
+		public static DateTime	convertDateInYYYYMMDDFormatToDateTime
+								(
+									string inputDateInYYYYMMDDFormat
+								)
+		{
+			if (initrode.utilities.StringManager.IsValidDateInYYYYMMDDFormat(inputDateInYYYYMMDDFormat) == false) 
+                return Convert.ToDateTime(&#34;1/1/1900&#34;);
+			return new	DateTime
+						(
+							Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(0,4))
+							,Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(4,2))
+							,Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(6,2))
+						);
+		}
+		public static DateTime	getNextPeriodStartDateFromGivenDate
+								(
+									DateTime inputDate
+								)
+		{
+			if (inputDate.Day == 1) return inputDate;
+			if (inputDate.Day == 16) return inputDate;
+			if (inputDate.Day &lt;= 15) return inputDate.AddDays(16 - inputDate.Day);
+			return inputDate.AddMonths(1).AddDays(1 - inputDate.Day);
+		}
+		public static DateTime	getNextPeriodEndDateFromGivenPeriodStartDate
+								(
+									DateTime inputPeriodStartDate
+								)
+		{
+			if (inputPeriodStartDate.Day == 1) return inputPeriodStartDate.AddDays(15 - inputPeriodStartDate.Day);
+			return inputPeriodStartDate.AddMonths(1).AddDays(0 - inputPeriodStartDate.Day);
+		}
+
+		public static DateTime	convertDateInYYYYMMDDFormatAndTimeInHHColonMIColonSSFormatToDateTime
+								(
+									string inputDateInYYYYMMDDFormat,
+									string inputTimeInHHColonMIColonSSFormat
+								)
+		{
+			inputDateInYYYYMMDDFormat = initrode.utilities.StringManager.StripWhitespaceFromEnds(inputDateInYYYYMMDDFormat);
+			inputTimeInHHColonMIColonSSFormat = initrode.utilities.StringManager.StripWhitespaceFromEnds(inputTimeInHHColonMIColonSSFormat);
+			if (inputDateInYYYYMMDDFormat.Length != 8 ||
+				initrode.utilities.StringManager.IsValidDateInYYYYMMDDFormat(inputDateInYYYYMMDDFormat) == false) return new DateTime(1900,1,1);
+		
+			if (inputTimeInHHColonMIColonSSFormat.Length != 8 ||
+				initrode.utilities.StringManager.IsValidTimeInHHColonMIColonSSFormat(inputTimeInHHColonMIColonSSFormat) == false)
+					return new	DateTime 
+								(
+									Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(0,4)),
+									Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(4,2)),
+									Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(6,2))
+								);
+
+			return new	DateTime 
+						( 
+							Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(0,4)),
+							Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(4,2)),
+							Convert.ToInt32(inputDateInYYYYMMDDFormat.Substring(6,2)),
+							Convert.ToInt32(inputTimeInHHColonMIColonSSFormat.Substring(0,2)),
+							Convert.ToInt32(inputTimeInHHColonMIColonSSFormat.Substring(3,2)),
+							Convert.ToInt32(inputTimeInHHColonMIColonSSFormat.Substring(6,2))
+						);
+		
+		}
+        public static bool validateTimestampInODBCCanonicalFormat
+                           (
+                              string inputTimestampInODBCCanonicalFormat
+                           )
+        {
+            if (inputTimestampInODBCCanonicalFormat.Length != 23)
+                return false;
+
+            if (initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(0, 4)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(5, 2)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(8, 2)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(11, 2)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(14, 2)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(17, 2)) == false
+                || initrode.utilities.StringManager.IsValidNumber(inputTimestampInODBCCanonicalFormat.Substring(20, 3)) == false)
+                return false;
+
+            string _yyyy =
+                inputTimestampInODBCCanonicalFormat.Substring(0, 4);
+            string _mm =
+                inputTimestampInODBCCanonicalFormat.Substring(5, 2);
+            string _dd =
+                inputTimestampInODBCCanonicalFormat.Substring(8, 2);
+            if (initrode.utilities.StringManager.IsValidDate
+                (
+                    _mm
+                    ,_dd
+                    ,_yyyy
+                ) == false)
+                return false;
+
+            StringBuilder _timeBldr =
+                new StringBuilder();
+            _timeBldr.Append
+            (
+                inputTimestampInODBCCanonicalFormat.Substring(11, 2)
+            );
+            _timeBldr.Append
+            (
+                &#34;:&#34;
+            );
+            _timeBldr.Append
+            (
+                inputTimestampInODBCCanonicalFormat.Substring(14, 2)
+            );
+            _timeBldr.Append
+            (
+                &#34;:&#34;
+            );
+            _timeBldr.Append
+            (
+                inputTimestampInODBCCanonicalFormat.Substring(17, 2)
+            );
+            if (initrode.utilities.StringManager.IsValidTimeInHHColonMIColonSSFormat
+                (
+                    _timeBldr.ToString()
+                ) == false)
+                return false;
+            return true;
+        }
+        public static DateTime  convertTimestampInODBCCanonicalFormatToDateTime
+                                (
+                                    string inputTimestampInODBCCanonicalFormat
+                                )
+        {
+            if (validateTimestampInODBCCanonicalFormat
+                    (
+                        inputTimestampInODBCCanonicalFormat
+                     ) == false)
+                return new DateTime(1900, 1, 1);
+
+            int _yyyy = 
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(0,4));
+            int _mm = 
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(5,2));
+            int _dd = 
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(8,2));
+
+            int _hh =
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(11, 2));
+            int _mi =
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(14, 2));
+            int _ss =
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(17, 2));
+            int _ms =
+                Convert.ToInt32(inputTimestampInODBCCanonicalFormat.Substring(20, 3));
+            return new DateTime
+                        (
+                            _yyyy
+                            , _mm
+                            , _dd
+                            , _hh
+                            , _mi
+                            , _ss
+                            , _ms
+                         );   
+        }
+
+		/** 
+		 * 
+		 * @description get first day of the current month
+		 * **/
+		public static DateTime getFirstDayofTheCurrentMonth() 
+		{
+			return initrode.utilities.DateManager.getFirstDayofTheMonth(System.DateTime.Now);
+		}
+
+        public static DateTime convertDateTimeToDate
+                                (
+                                    DateTime inputTimestamp
+                                )
+        {
+            DateTime _returnDate =
+                new DateTime
+                    (
+                        inputTimestamp.Year
+                        ,inputTimestamp.Month
+                        ,inputTimestamp.Day
+                    );
+            return _returnDate;
+        }
+		/**
+		 * @description get the last day of the month
+		 * */
+							   	
+		public static DateTime getLastDayOfTheMonth( System.DateTime inputDateTime) 
+		{
+			return initrode.utilities.DateManager.getFirstDayofNextMonth(inputDateTime).AddDays(-1);
+		}
+		/** 
+		 * @description get last day of the current month
+		 * **/
+		public static DateTime getLastDayofTheCurrentMonth() 
+		{
+			return initrode.utilities.DateManager.getLastDayOfTheMonth(DateTime.Now);
+		}
+
+		/** 
+		 * Convert the DateTime value to YYYYMMDD format
+		 * **/
+		public static string convertDateTimeToYYYYMMDDFormat(DateTime inputDateTime)
+		{
+			StringBuilder _dateBldr = new StringBuilder();
+			_dateBldr.Append(inputDateTime.Year.ToString());
+			_dateBldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Month.ToString(),&#34;0&#34;,true,2));
+			_dateBldr.Append(initrode.utilities.StringManager.Fill(inputDateTime.Day.ToString(),&#34;0&#34;,true,2));
+			return _dateBldr.ToString();
+		}
+		/** 
+		 * Convert the DateTime value to MM, DD, YYYY character parts
+		 * **/
+		public static void convertDateTimeToMM_DD_YYYYStringParts(DateTime inputDateTime,
+																	out string outputMM,
+																	out string outputDD,
+																	out string outputYYYY)
+		{
+			string _date_in_MM_DD_YYYY_Format = 
+				convertDateTimeToMM_DD_YYYYFormat(inputDateTime);
+			outputMM = &#34;&#34;;
+			outputDD = &#34;&#34;;
+			outputYYYY = &#34;&#34;;
+
+			outputMM = _date_in_MM_DD_YYYY_Format.Substring(0,2);
+			outputDD = _date_in_MM_DD_YYYY_Format.Substring(3,2);
+			outputYYYY = _date_in_MM_DD_YYYY_Format.Substring(6,4);
+		}
+		/** 
+		 * Convert the DateTime value to MM_DD_YYYY format.
+		 * **/
+		public static DateTime convertMM_DD_YYYYFormatToDateTime(string inputDateInMM_DD_YYYYFormat)
+		{
+			inputDateInMM_DD_YYYYFormat = initrode.utilities.StringManager.StripWhitespaceFromEnds(inputDateInMM_DD_YYYYFormat);
+			if (initrode.utilities.StringManager.IsValidDateInMM_DD_YYYYFormat(inputDateInMM_DD_YYYYFormat) == false) return new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+			int _intMM = Convert.ToInt32(inputDateInMM_DD_YYYYFormat.Substring(0,2));
+			int _intDD = Convert.ToInt32(inputDateInMM_DD_YYYYFormat.Substring(3,2));
+			int _intYYYY = Convert.ToInt32(inputDateInMM_DD_YYYYFormat.Substring(6,4));
+			return new DateTime(_intYYYY,_intMM, _intDD);
+		}
+        public static int calculateMonthsDifferenceBetweenTwoDates
+                            (
+                                DateTime inputOlderDate
+                                , DateTime inputNewerDate
+                            )
+        {
+            DateTime _tempDate = inputOlderDate;
+            int _numberOfMonthsDifference = 0;
+            while (_tempDate &lt; inputNewerDate)
+            {
+                _tempDate = _tempDate.AddMonths(1);
+                if (_tempDate &lt; inputNewerDate)
+                    _numberOfMonthsDifference++;
+            }
+            return _numberOfMonthsDifference;
+        }
+
+		/** 
+		 * Convert the DateTime value to MM_DD_YYYY format.
+		 * **/
+		public static string convertTimestampToStringFormat(DateTime inputDateTime)
+		{
+			StringBuilder _bldr = new StringBuilder();
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Month.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;/&#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Day.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;/&#34;);
+			_bldr.Append(inputDateTime.Year.ToString());
+			_bldr.Append(&#34; &#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Hour.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;:&#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Minute.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;:&#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Second.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;.&#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Millisecond.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												3));
+
+			return _bldr.ToString();
+		}
+
+		/** 
+		 * Convert the DateTime value to MM_DD_YYYY format.
+		 * **/
+		public static string convertDateTimeToMM_DD_YYYYFormat(DateTime inputDateTime)
+		{
+			StringBuilder _bldr = new StringBuilder();
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Month.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;/&#34;);
+			_bldr.Append(initrode.utilities.StringManager.Fill(	
+												inputDateTime.Day.ToString(),
+												&#34;0&#34;,
+												true,           //Fill from left
+												2));
+			_bldr.Append(&#34;/&#34;);
+			_bldr.Append(inputDateTime.Year.ToString());
+			return _bldr.ToString();
+		}
+
+		/** 
+		 * @description get first day of the next  month
+		 * **/
+		public static DateTime getFirstDayofNextMonth(DateTime inputDateTime) 
+		{
+			return  initrode.utilities.DateManager.getFirstDayofTheMonth(inputDateTime).AddMonths(1);
+		}
+
+
+		/** 
+		 * @description get first day of the next  month
+		 * **/
+		public static DateTime getFirstDayofNextMonth() 
+		{
+			return  getFirstDayofNextMonth(DateTime.Now); 
+		}
+
+		/** 
+		 * @description add days to a date
+		 * **/
+		public static DateTime daysFromTheFirst(int days, System.DateTime date)
+		{
+			DateTime nextDate = date.AddDays(days); //calculate  1 day of next month
+			return nextDate;
+		}
+		/** 
+		 * 
+		 * @description get first day of the current year
+		 * **/
+		public static DateTime getFirstDayofTheCurrentYear() 
+		{
+			return initrode.utilities.DateManager.getFirstDayofTheInputtedDatesYear(System.DateTime.Now);
+		}
+		/** 
+		 * 
+		 * @description get last day of the current year
+		 * **/
+		public static DateTime getLastDayofTheCurrentYear() 
+		{
+			return initrode.utilities.DateManager.getFirstDayofTheCurrentYear().AddYears(1).AddDays(-1);
+		}
+
+		/** 
+		 * 
+		 * @description get first day of the inputted year
+		 * **/
+		public static DateTime getFirstDayofTheInputtedDatesYear(System.DateTime inputDateTime) 
+		{
+			return new DateTime(inputDateTime.Year,1,1);
+		}
+		/** 
+		 * 
+		 * @description get last day of the inputted year
+		 * **/
+		public static DateTime getLastDayofTheInputtedDatesYear(System.DateTime inputDateTime) 
+		{
+			return new DateTime(inputDateTime.Year,12,31);
+		}
+
+		public static DateComparison timestamp1ComparedToTimestamp2(DateTime inputTimestamp1, 
+																	DateTime inputTimestamp2)
+		{
+			if (inputTimestamp1.Year &gt; inputTimestamp2.Year) return DateComparison.gt;
+			if (inputTimestamp1.Year &lt; inputTimestamp2.Year) return DateComparison.lt;
+			if (inputTimestamp1.DayOfYear &gt; inputTimestamp2.DayOfYear) return DateComparison.gt;
+			if (inputTimestamp1.DayOfYear &lt; inputTimestamp2.DayOfYear) return DateComparison.lt;
+			if (inputTimestamp1.Hour &gt; inputTimestamp2.Hour) return DateComparison.gt;
+			if (inputTimestamp1.Hour &lt; inputTimestamp2.Hour) return DateComparison.lt;
+			if (inputTimestamp1.Minute &gt; inputTimestamp2.Minute) return DateComparison.gt;
+			if (inputTimestamp1.Minute &lt; inputTimestamp2.Minute) return DateComparison.lt;
+			if (inputTimestamp1.Second &gt; inputTimestamp2.Second) return DateComparison.gt;
+			if (inputTimestamp1.Second &lt; inputTimestamp2.Second) return DateComparison.lt;
+			if (inputTimestamp1.Millisecond &gt; inputTimestamp2.Millisecond) return DateComparison.gt;
+			if (inputTimestamp1.Millisecond &lt; inputTimestamp2.Millisecond) return DateComparison.lt;
+			return DateComparison.eq;
+		
+		}
+
+		public static DateComparison date1ComparedToDate2(DateTime inputDate1, 
+															DateTime inputDate2)
+		{
+			if (inputDate1.Year &gt; inputDate2.Year) return DateComparison.gt;
+			if (inputDate1.Year &lt; inputDate2.Year) return DateComparison.lt;
+			if (inputDate1.DayOfYear &gt; inputDate2.DayOfYear) return DateComparison.gt;
+			if (inputDate1.DayOfYear &lt; inputDate2.DayOfYear) return DateComparison.lt;
+			return DateComparison.eq;
+		
+		}
+
+		/** 
+		 * 
+		 * @description get first day of the first Future Period
+		 * **/
+		public static DateTime getTheDateBeforeTheFirstFuturePeriod() 
+		{
+			// If date is less than the 16th, the 15th is the date.
+
+			DateTime _date = DateTime.Now;
+			if (_date.Day &lt; 16)
+			{
+				return _date.AddDays(15 - _date.Day);
+			}
+
+			// If date is greater than the 16th, the 1st of the following month is
+			// the first date of the first future period.
+
+			return _date.AddDays(1 - _date.Day).AddMonths(1).AddDays(-1);
+		}
+	}
+}</code></pre>
+<!-- Easy Reader Version: The article WAS the easy reader version. Look at this thing. -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">BuildMaster</a> allows you to create a self-service release management platform that allows different teams to manage their applications. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">Explore how!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=iuIXXz86C28:Cjy2v1zA1WU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/iuIXXz86C28" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"35";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:64:"https://thedailywtf.com/articles/comments/driven-to-substraction";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:27:"CodeSOD: Compiled Correctly";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/compiled-correctly";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 08 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/compiled-correctly";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5712:"<p>Properly used, version history can easily help you track down and identify the source of a bug. Improperly used, it still can. As previously established, the chief architect <strong>Dana</strong> works with <a href="https://thedailywtf.com/articles/butting-in">has some issues with source control</a>.</p>
+
+<p><strong>Dana</strong> works on a large, complex embedded system. “Suddenly”, her team started to spot huge piles of memory corruption problems. <em>Something</em> was misbehaving, but it was hard to see exactly <em>what</em>.</p>
+
+<p>They ported Valgrind to their platform, just so they could try and figure out what was going wrong. Eventually, they tracked the problem down to a pair of objects.</p>
+
+<p>In the flow of the code, the correct path was that object A, which we’ll call <code>Monster</code> would be allocated. <em>Then</em> a second object would be allocated. Somehow, <code>Monster</code> instances were corrupting the memory of the second object.</p>
+
+<p>How does an object allocated earlier corrupt the memory of an object allocated later? Well, “before” and “after” have different meaning when your code is multi-threaded, which this was. Worse, the <code>Monster</code> class was <a href="https://en.wikipedia.org/wiki/Katamari_damacy">katamari</a> of functionality rolled up across thousands of lines of code. <!-- Sorry, I just finally got around to playing the PC re-release of the game- just as good as I remembered, but much much shorter than I remembered --> Obviously, there had to be a race condition- but a quick glance at all the <code>Monster</code> methods showed that they were using a mutex to avoid the race condition.</p>
+
+<p>Or were they? Dana looked more closely. One of the methods called during the initialization process, <code>doSomething</code>, was marked <code>const</code>. In C++, that should mean that the method doesn’t change any property values. But if it doesn’t change any property values, how can it lock the mutex?</p>
+
+<p>This is where walking through the commit history tells a story. “Fortunately” this was before Jerry learned you could amend a commit, so each step of his attempts to get the code to compile are recorded for posterity.</p>
+
+<p>The chain of commits started with one labeled “Add Feature $X”, and our <code>doSomething</code> method looked like this.</p>
+<pre><code class="cplusplus">  void doSomething() const {
+      Mutex::ScopedLock lock(mutex);
+      // Dozens of lines of code
+  }</code></pre>
+
+<p>Now, the <em>intent</em> here was to create a <code>ScopedLock</code> object based off a <code>mutex</code> property. But that required the <code>mutex</code> property to change, which violated <code>const</code>, which meant this didn’t even compile.</p>
+
+<p>Which brings up our next commit, labeled “Fix compile failure”:</p>
+<pre><code class="cplusplus">  void doSomething() const {
+      Mutex::ScopedLock lock(mutex) const;
+      // Dozens of lines of code
+  }</code></pre>
+
+<p>Surprisingly, just slapping the <code>const</code> declaration on the variable initialization didn’t do anything. The next commit, also helpfully labeled “Fix compile failure”:</p>
+<pre><code class="cplusplus">  void doSomething() const {
+      Mutex::ScopedLock lock(const mutex);
+      // Dozens of lines of code
+  }</code></pre>
+
+<p>Again, this didn’t work. Which brings us to the last “Fix compile failure” commit in this chain:</p>
+<pre><code class="cplusplus">  void doSomething() const {
+      Mutex::ScopedLock lock(const Mutex mutex);
+      // Dozens of lines of code
+  }</code></pre>
+
+<p>By randomly adding and subtracting symbols, Jerry was able to <em>finally</em> write a function which compiles. Unfortunately, it also doesn’t <em>work</em>, because this time, the line of code is a function declaration for a function with no implementation. It takes a mutex as a parameter, and returns a lock on that mutex. Since the declaration has no implementation, if we ever tried to call this in <code>doSomething</code>, we’d get an error, but we don’t, because this was always meant to be a constructor.</p>
+
+<p>The end result is that nothing gets locked. Thus, the race condition means that sometimes, two threads contend with each other and corrupt memory. Dana was able to fix this method, but the root cause was only fixed when Jerry left Initech to be a CTO elsewhere.</p>
+<!-- Easy Reader Version: I mean, I'm sad that Jerry isn't there anymore. He seems like great story fodder. -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=pT9sgSN4FB4:ufs5GMyqIww:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/pT9sgSN4FB4" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"24";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:60:"https://thedailywtf.com/articles/comments/compiled-correctly";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:24:"CodeSOD: Generically Bad";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:48:"https://thedailywtf.com/articles/generically-bad";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 07 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:48:"https://thedailywtf.com/articles/generically-bad";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:7557:"<p>The first two major releases of the .NET Framework, 1.0 and 1.1 were… not good. It&#39;s so long ago now that they&#39;re easily forgotten, but it&#39;s important to remember that a lot of core language features weren&#39;t in the framework until .NET 2.0.</p>
+<p>Like generics. Generics haven&#39;t always been part of the language, but they&#39;ve been in the language since 2006. The hope would be that, in the course of 13 years, developers would learn to use this feature.</p>
+<p><strong>Russell F</strong> (<a href="https://thedailywtf.com/articles/trim-off-a-few-miles">recently</a>) has a co-worker who is still working on it.</p>
+<pre><code class="language-csharp"><div><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DataTable ClassRegionDToDatatable&lt;POSInvoiceRegionD&gt;(<span class="hljs-keyword">string</span> tableName) <span class="hljs-keyword">where</span> POSInvoiceRegionD : <span class="hljs-keyword">class</span>
+{
+    Type classType = <span class="hljs-keyword">typeof</span>(POSInvoiceRegionD);
+    DataTable result = <span class="hljs-keyword">new</span> DataTable(tableName);
+
+    <span class="hljs-keyword">foreach</span> (PropertyInfo property <span class="hljs-keyword">in</span> classType.GetProperties())
+    {
+        DataColumn column = <span class="hljs-keyword">new</span> DataColumn();
+        column.ColumnName = property.Name;
+        column.DataType = property.PropertyType;
+
+        result.Columns.Add(column);
+    }
+    <span class="hljs-keyword">return</span> result;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DataTable ClassRegionFToDatatable&lt;POSInvoiceRegionF&gt;(<span class="hljs-keyword">string</span> tableName) <span class="hljs-keyword">where</span> POSInvoiceRegionF : <span class="hljs-keyword">class</span>
+{
+    Type classType = <span class="hljs-keyword">typeof</span>(POSInvoiceRegionF);
+    DataTable result = <span class="hljs-keyword">new</span> DataTable(tableName);
+
+    <span class="hljs-keyword">foreach</span> (PropertyInfo property <span class="hljs-keyword">in</span> classType.GetProperties())
+    {
+        DataColumn column = <span class="hljs-keyword">new</span> DataColumn();
+        column.ColumnName = property.Name;
+        column.DataType = property.PropertyType;
+
+        result.Columns.Add(column);
+    }
+    <span class="hljs-keyword">return</span> result;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DataTable ClassRegionGToDatatable&lt;POSInvoiceRegionG&gt;(<span class="hljs-keyword">string</span> tableName) <span class="hljs-keyword">where</span> POSInvoiceRegionG : <span class="hljs-keyword">class</span>
+{
+    Type classType = <span class="hljs-keyword">typeof</span>(POSInvoiceRegionG);
+    DataTable result = <span class="hljs-keyword">new</span> DataTable(tableName);
+
+    <span class="hljs-keyword">foreach</span> (PropertyInfo property <span class="hljs-keyword">in</span> classType.GetProperties())
+    {
+        DataColumn column = <span class="hljs-keyword">new</span> DataColumn();
+        column.ColumnName = property.Name;
+        column.DataType = property.PropertyType;
+
+        result.Columns.Add(column);
+    }
+    <span class="hljs-keyword">return</span> result;
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DataTable ClassRegionKToDatatable&lt;POSInvoiceRegionK&gt;(<span class="hljs-keyword">string</span> tableName) <span class="hljs-keyword">where</span> POSInvoiceRegionK : <span class="hljs-keyword">class</span>
+{
+    Type classType = <span class="hljs-keyword">typeof</span>(POSInvoiceRegionK);
+    DataTable result = <span class="hljs-keyword">new</span> DataTable(tableName);
+
+    <span class="hljs-keyword">foreach</span> (PropertyInfo property <span class="hljs-keyword">in</span> classType.GetProperties())
+    {
+        DataColumn column = <span class="hljs-keyword">new</span> DataColumn();
+        column.ColumnName = property.Name;
+        column.DataType = property.PropertyType;
+
+        result.Columns.Add(column);
+    }
+    <span class="hljs-keyword">return</span> result;
+}
+</div></code></pre>
+<p>Now, the core idea behind generics is that code which <em>is</em> generic doesn&#39;t particularly care about what data-type it&#39;s working on. A generic list handles inserts and other list operations without thinking about what it&#39;s actually touching.</p>
+<p>So, right off the bat, the fact that we have a pile of generic methods which all contain the same code is a simple hint that something&#39;s gone terribly wrong.</p>
+<p>In this case, each of these methods takes a type parameter (which happens, in this case, to be named just like one of the actual classes we use), and then generates an empty DataTable with the columns configured to match the class. So, for example, you might do:</p>
+<pre><code class="language-csharp"><div>DataTable d = POSInvoiceRegionUtils.ClassRegionDToDatatable&lt;POSInvoiceRegionD&gt;(<span class="hljs-string">&#34;the_d&#34;</span>);
+</div></code></pre>
+<p>Of course, because these methods are all generic and accept type parameters, you could just as easily…</p>
+<pre><code class="language-csharp"><div>DataTable d = POSInvoiceRegionUtils.ClassRegionKToDatatable&lt;POSInvoiceRegionD&gt;(<span class="hljs-string">&#34;the_d&#34;</span>);
+</div></code></pre>
+<p>Not that such a counterintuitive thing ever happens. By the way, did you notice how these regions are named with letters? And you know how the alphabet has 26 of them? Well, while they&#39;re not using all 26 letters, there are a <em>lot</em> more regions than illustrated here, and they all get the same <code>ClassRegion{x}ToDatatable</code> implementation.</p>
+<p>So yes, we could boil all of these implementations down into one. Then again, should we? <code>GetProperties</code> is one of .NET&#39;s reflection methods, which lets us examine the definition of class objects. Using it isn&#39;t <em>wrong</em>, but it&#39;s always <em>suspicious</em>. Perhaps we don&#39;t need <em>any</em> of this code? Without more information, it&#39;s hard to say, but Russell adds:</p>
+<blockquote>
+<p>I&#39;m going to leave aside the question of whether this is something that should be done at all to focus on the fact that it&#39;s being done in a really bizarre way.</p>
+</blockquote>
+<p>I&#39;m not sure about &#34;bizarre&#34;, but wrong? Definitely. Definitely wrong.</p>
+<!-- Easy Reader Version: Reflect on your generics -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. <a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Consistently&amp;utm_campaign=ProGet_Footer">Learn how</a> today!
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=N9O2vn_B7pQ:s1LvbSzFbPQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/N9O2vn_B7pQ" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"15";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/comments/generically-bad";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Error&#039;d: An Error Storm of Monstrous Proportions";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"https://thedailywtf.com/articles/an-error-storm-of-monstrous-proportions";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 04 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"https://thedailywtf.com/articles/an-error-storm-of-monstrous-proportions";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2875:"<p>&#34;Move over NOAA, Google News shows us, unfortunately <a href="https://en.wikipedia.org/wiki/Hurricane_Dorian">after the fact</a> that The Daily Beast is the TRUEST hurricane prognosticator,&#34; <strong>Alejandro D.</strong> writes.
+</p><blockquote><p><a href="#Pic-2"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-2.jpg"/></a></p><p> </p></blockquote>
+
+<p>&#34;Um...So, these are so my car can listen to music, wirelessly, because its mirrors are its...er...ears??&#34; <strong>Paul</strong> writes.
+</p><blockquote><p><a href="#Pic-1"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-1.jpg"/></a></p><p> </p></blockquote>
+
+<p><strong>Jyri B.</strong> wrote, &#34;You know, it&#39;s really nice to see that the Eurovision people are embracing <u>all</u> the European languages.&#34;
+</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-3.jpg"/></a></p><p> </p></blockquote>
+
+<p>&#34;Wow! Maltese looks like a tough language to learn. Glad I don&#39;t have to know it. Thank YOU Google Translate!&#34; <strong>Peter K.</strong> writes.
+</p><blockquote><p><a href="#Pic-4"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-4.jpg"/></a></p><p> </p></blockquote>
+
+<p>&#34;At Gamestop, you can pre-order figurines of all your favoirte characters from MSI!&#34; wrote <strong>Chris A.</strong>
+</p><blockquote><p><a href="#Pic-5"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-5.png"/></a></p><p> </p></blockquote>
+
+<p><strong>Mikkel H.</strong> writes, &#34;I don&#39;t want to hear about timezone issues. The only thing possible that happened here was that my FedEx package was teleported from Beijing to Anchorage and back again.&#34;
+</p><blockquote><p><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e383/Pic-6.png"/></a></p><p> </p></blockquote>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/otter?utm_source=tdwtf&amp;utm_medium=Footerad&amp;utm_term=2018&amp;utm_content=Provision&amp;utm_campaign=Otter_Footer">Otter</a> - Provision your servers automatically without ever needing to log-in to a command prompt. <a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;utm_medium=Footerad&amp;utm_term=2018&amp;utm_content=Provision&amp;utm_campaign=Otter_Footer">Get started today!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=vwJKXYg_KXA:i3bBvFF2gko:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/vwJKXYg_KXA" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"14";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:81:"https://thedailywtf.com/articles/comments/an-error-storm-of-monstrous-proportions";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"The Windows Update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/the-windows-update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"Feature Articles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 03 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/the-windows-update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5480:"<p>Every change breaks someones workflow.</p>
+
+<p>A few years ago, <strong>Ian</strong> started at one of the many investment banks based out of London. This particular bank was quite proud of how they integrated “the latest technology” into all their processes, “favoring the bleeding edge,” and “are always focusing on Agile methods, and cross-functional collaboration.”</p>
+
+<p>That last bit is why every software developer was on a tech support rotation. Every two weeks, they’d have to spend a day sitting with the end users, watching them work. Ostensibly, by seeing how the software was actually used, the developers would have a better sense of the users’ needs. In practice, they mostly showed people how to delete emails or recover files from the recycling bin.</p>
+
+<p>Unfortunately, these end users <em>also</em> directly or indirectly controlled the bank’s budgeting process, so keeping them happy was a big part of ensuring continued employment. Not just service, but service with a smile- or <em>else</em>.</p>
+
+<p>Ian’s problem customer was Jacob. Jacob had been with the bank at least thirty years, and still longed for the days of lunchtime brandy and casual sexual harassment. He did <em>not</em> like computers. He did not like the people who serviced his computer. He did not like it when a web page displayed incorrectly, and he especially did not like it when you explained that you couldn’t edit the web page you didn’t own, and couldn’t tell Microsoft to change Internet Explorer to work with that particular website.</p>
+
+<p>“I understand you smart technical kids are just a cost of doing business,” Jacob would often say, “but your budget is out of control. Something must be done!”</p>
+
+<p>Various IT projects proceeded apace. Jacob continued to try and cut their budget. And then the Windows 7 rollout happened.</p>
+
+<p>This was a massive effort. They had been on Windows XP. A variety of intranet and proprietary applications didn’t work on Windows 7, and needed to be upgraded. Even with those upgrades, everyone knew that there would be more problems. These big changes never came without unexpected side effects.</p>
+
+<p>The day Jacob got Windows 7 imaged onto his computer also happened to be the day Ian was on helldesk duty. Ian got a frantic email:</p>
+
+<blockquote>
+<p>My screen is broken! Everything is wrong! COME TO MY DESK RIGHT NOW, YOUNG MAN</p>
+</blockquote>
+
+<p>Ian had already prepared, and went right ahead and changed Jacob’s desktop settings so that they as closely mimicked Windows XP as possible.</p>
+
+<p>“That’s all fine and good,” Jacob said, “but it’s still <em>broken</em>.”</p>
+
+<p>Ian looked at the computer. Nothing was broken. “What… what exactly is the problem?”</p>
+
+<p>“Internet Explorer is broken!”</p>
+
+<p>Ian double clicked the IE icon. The browser launched just fine, and pulled up the company home page.</p>
+
+<p>“No! Close that window, and look at the desktop!”</p>
+
+<p>Ian did so, waiting for Jacob to explain the problem. Jacob waited for Ian to see the problem. They both sat there, waiting, no one willing to move until the other had gone.</p>
+
+<p>Jacob broke first. “The icon is wrong!”</p>
+
+<p>Ah, yes, the big-blue-E of Windows XP had been replaced by the big-blue-E of Windows 7.</p>
+
+<p>“This is unacceptable!” Jacob said.</p>
+
+<p>Ian had already been here for most of the morning, so a few more minutes made no difference. He fired up image search, grabbed the first image which was an XP era IE icon, and then set that as the icon on the desktop.</p>
+
+<p>Jacob squinted. “Nope. No, I don&#39;t like that. It’s too smooth.”</p>
+
+<p>Of course. Ian had grabbed the first image, which was much higher resolution than the original icon file. “I… see. Give me a minute.”</p>
+
+<p>Ian went back to his desk, resized the image, threw it on a network share, went back to Jacob’s desk, and changed the icon.</p>
+
+<p>“There we are,” Jacob said. “At least <em>someone</em> on your team knows how to support their users. It’s not just about making changes willy-nilly, you know. Good work!”</p>
+
+<p>That was the first and only honest compliment Jacob ever gave Ian. Two years later, Ian moved on to a new job, leaving Jacob with his old IE icon, sitting at the same desk he’d been since before the Internet was even a “thing”.</p>
+<!-- Easy Reader Version: There are so many versions of this basic story --><div>
+	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">BuildMaster</a> allows you to create a self-service release management platform that allows different teams to manage their applications. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Self_Service&amp;utm_campaign=Buildmaster_Footer">Explore how!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=g60TZ7GFTw4:_UUkYxSj-Pw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/g60TZ7GFTw4" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"34";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:60:"https://thedailywtf.com/articles/comments/the-windows-update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:27:"CodeSOD: An Updated Version";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/an-updated-version";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Wed, 02 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:51:"https://thedailywtf.com/articles/an-updated-version";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3299:"<p>Some folks were perplexed by the fact that Microsoft skipped Windows 9 and went straight to Windows 10. The urban legend is that so many old applications checked which version of Windows was running by doing something like <code>version.startsWith(&#34;Windows 9&#34;)</code> to see if they were on 95 or 98, that Microsoft risked breaking otherwise working code if they released Windows 9.</p>
+
+<p>But gone are those days of doing string munging to check which version of an OS we’re running on. We’ve got much better ways to check what features and functionality are available without having to parse strings out, right?</p>
+
+<p><strong>John D</strong> found some TypeScript code in a Ionic app that needs to adapt to different versions of iOS:</p>
+<pre><code class="typescript">private iOS13Device(): boolean {
+		// fix for ios 13 pan end issue
+		if (
+			this.isIOS13Device === undefined &amp;&amp;
+			this.deviceService.isiOS &amp;&amp;
+			this.deviceInfoService.deviceInfo &amp;&amp;
+			this.deviceInfoService.deviceInfo.osVersion &amp;&amp;
+			this.deviceInfoService.deviceInfo.osVersion.indexOf(&#39;_&#39;) &amp;&amp;
+			this.deviceInfoService.deviceInfo.osVersion.split(&#39;_&#39;) &amp;&amp;
+			this.deviceInfoService.deviceInfo.osVersion.split(&#39;_&#39;)[0] &amp;&amp;
+			this.deviceInfoService.deviceInfo.osVersion.split(&#39;_&#39;)[0] === &#39;11&#39;
+		) {
+			this.isIOS13Device = true;
+			return this.isIOS13Device;
+		} else {
+			this.isIOS13Device = false;
+			return this.isIOS13Device;
+		}
+	}</code></pre>
+
+<p>Well, at least they’re caching the result.</p>
+
+<p>Also, I’m no expert on iOS device strings, but this seems to imply that an <code>iOS13Device</code> (an OS which just came out recently) reports its OS version number as a string starting with <code>11</code>. Maybe that’s correct, but in either case, that seems like a bonus WTF.</p>
+<!-- Easy Reader Version: No, I do not think that Microsoft skipped 9 for that reason, because they could have easily found a way to trick that out in how they report the OS version string, like using Windows 09 or Windows v9 -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=n2xCD_L4vFw:-GHU0c7nSWA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/n2xCD_L4vFw" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"27";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:60:"https://thedailywtf.com/articles/comments/an-updated-version";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Jane Bailey";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:29:"When Unique Isn&#039;t Unique";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/when-unique-isn-t-unique";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"Feature Articles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Tue, 01 Oct 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:57:"https://thedailywtf.com/articles/when-unique-isn-t-unique";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3958:"<p style="float:right; padding-left:10px; padding-bottom:10px;"><a title="No machine-readable author provided. Museo8bits assumed (based on copyright claims). [CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Palm_III_24.jpg"><img itemprop="image" width="300" alt="Palm III 24" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Palm_III_24.jpg/512px-Palm_III_24.jpg"/></a></p>
+
+<p>Gather &#39;round, young&#39;uns, for a tale from the Dark Ages of mobile programming: the days before the iPhone launched. Despite what Apple might have you believe, the iPhone wasn&#39;t the first portable computing device. Today&#39;s submitter, <b>Jack</b>, was working for a company that streamed music to these non-iPhone devices, such as the <a href="https://en.wikipedia.org/wiki/Palm_Treo" target="_blank">Palm Treo</a> or the <a href="https://en.wikipedia.org/wiki/Samsung_i607_BlackJack" target="_blank">Samsung Blackjack</a>. As launch day approached for the new client for Windows Mobile 6, our submitter realized that he&#39;d yet to try the client on a non-phone device (called a PDA, for those of you too young to recall). So he tracked down an <a href="https://en.wikipedia.org/wiki/IPAQ" target="_blank">HP iPaq</a> on eBay just so he could verify that it worked on a device without the phone API.</p>
+
+<p>The device arrived a few days out from launch, after QA had already approved the build on other devices. It should&#39;ve been a quick test: sideload the app, stream a few tracks, log in, log out. But when Jack opened the app for the first time on the new device, it was already logged into someone&#39;s account! He closed it and relaunched, only to find himself in a different, also inappropriate account. What on earth?!</p>
+
+<p>The only thing Jack could find in common between the users he was logged in as was that they were running the same model of PDA. That was the crucial key to resolving the issue. To distinguish which device was making the calls to the streaming service, Jack used a call in Windows Mobile that would return a unique ID for each mobile device. In most devices, it would base this identifier on the IMEI, ensuring uniqueness—but not on the HP iPaq. All HP devices could automatically log into the account of the most recently used iPaq, providing the user logged out and back in, as it would generate a recent-user record with the device ID.</p>
+
+<p>Jack had read the documentation many times, and it always stated that the ID was guaranteed to be unique. Either HP had a different definition of &#34;unique&#34; than anyone else, or they had a major security bug!</p>
+
+<p>Jack emailed HP, but they had no plans to fix the issue, so he had to whip up an alternate method of generating a UUID in the case that the user was on this device. The launch had to be pushed back to accommodate it, but the hole was plugged, and life went on as usual.</p><div>
+	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=vF2YMOk7BBE:YW8BkYpPkGA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/vF2YMOk7BBE" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"30";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:66:"https://thedailywtf.com/articles/comments/when-unique-isn-t-unique";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:19:"CodeSOD: Butting In";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:43:"https://thedailywtf.com/articles/butting-in";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Mon, 30 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:43:"https://thedailywtf.com/articles/butting-in";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4673:"<p>Initech is a large, international corporation. Any time you&#39;re doing business at a global scale, you&#39;re going to need to contend with a language barrier sooner or later. This makes employees who are multilingual valuable.</p>
+<p><strong>Dana</strong> recently joined Initech, and in the first week, was warned about Jerry. Jerry was the &#34;chief&#34; &#34;architect&#34; and team &#34;lead&#34;, and was one of those special, valuable employees who spoke three languages. Correction, &#34;spoke&#34; needs scare quotes too, because Jerry was incomprehensible in every language he spoke, including his native tongue.</p>
+<p>Jerry&#39;s emails were stuff of legend around the office. Punctuation was included, not to structure sentences, but as a kind of decoration, just to spice up his communiques. Capitalization was applied at random. Sentences weren&#39;t there to communicate a single thought or idea, but to express fragments of half considered dreams.</p>
+<p>Despite being the &#34;chief architect&#34;, Jerry&#39;s code was about as clear as his emails. His class definitions were rambling stretches of unrelated functionality, piled together into a ball of mud. Splattered through it all were blocks of commented out functionality. And 99.9% of his commits to master had syntax errors.</p>
+<p>Why did his commits always have syntax errors? Jerry had never seen fit to install a C++ compiler on his machine, and instead pushed to master and let their CI system compile and find all his syntax errors. He&#39;d then amend the commit to fix the errors, and woe betide anyone else working in the repo, because he&#39;d next <code>git push --force</code> the amended commit. Then he&#39;d fix the new round of syntax errors.</p>
+<p>Their organization did have an official code review standard, but since no one understood any of Jerry&#39;s code, and Jerry was the &#34;chief&#34;, Jerry reviewed his own code.</p>
+<p>So, let&#39;s talk about enumerated types. A common practice in C++ enums is to include an extra value in the enum, just to make it easy to discover the size of the enum, like so:</p>
+<pre><code class="language-cplusplus"><div>enum Color {
+    COLOR_RED,
+    COLOR_BLACK,
+    COLOR_BLUE,
+    COLOR_SIZE
+}
+</div></code></pre>
+<p><code>COLOR_SIZE</code> isn&#39;t actually a color value, but it tells you how many color values there <em>are</em>. This can be useful when working with a large team, as it&#39;s a sort of form of documentation. It also allows patterns like, `for (int i = 0; i &lt; COLOR_SIZE; i++)…`. Of course, it only works when everyone follows the same convention.</p>
+<p>Jerry couldn&#39;t remember the convention. So, in his native language, he invented a new one: he&#39;d end all his enums with a <code>_END</code> instead of <code>_SIZE</code>. But Jerry <em>also</em> couldn&#39;t remember what the English word for &#34;end&#34; was. So he went off to Google Translate, and got an English translation.</p>
+<p>Then he wrote code. Lots of code. No one got to review this code. Jerry touched everything, without worrying about what any other developer was doing.</p>
+<p>This meant that before long, every enum in the system looked like this:</p>
+<pre><code class="language-cplusplus"><div>enum Color {
+    COLOR_RED,
+    COLOR_BLACK,
+    COLOR_BLUE,
+    COLOR_BUTT
+}
+</div></code></pre>
+<p>Eventually, Jerry left Initech. He&#39;d found a position where he could be a CTO of a well-funded startup. The very same day, Dana submitted her largest pull request ever, where she removed every single one of Jerry&#39;s butts.</p>
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script><div>
+	<img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	Forget logs. Next time you&#39;re struggling to replicate error, crash and performance issues in your apps - Think <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Raygun</a>! Installs in minutes. <a href="https://raygun.com/landing?utm_source=tdwtf&amp;utm_medium=sponsored&amp;utm_campaign=text-link">Learn more.</a>
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=r3e5VRx4UdA:UtNvXHmq-MY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/r3e5VRx4UdA" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"31";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:52:"https://thedailywtf.com/articles/comments/butting-in";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Bowytz";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"Error&#039;d: Modern Customer Support";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:56:"https://thedailywtf.com/articles/modern-customer-support";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"Error'd";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Fri, 27 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:56:"https://thedailywtf.com/articles/modern-customer-support";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2991:"<p>&#34;It&#39;s interesting to consider that First Great Western&#39;s train personnel track on-time but meanwhile, their seats measure uptime,&#34; writes <strong>Roger G.</strong>
+</p><blockquote><p><a href="#Pic-1"><img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-1.jpg"/></a></p><p> </p></blockquote>
+
+<p><strong>Peter G.</strong> writes, &#34;At $214.90 for two years I was perfectly happy, but this latest price increase? You&#39;ve simply gone TOO FAR and I will be cancelling ASAP!&#34;
+</p><blockquote><p><a href="#Pic-2"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-2.png"/></a></p><p> </p></blockquote>
+
+<p>&#34;SharePoint does a lot of normal things, but in the case of this upgrade, it truly went above and beyond,&#34; <strong>Adam S.</strong> wrote.
+</p><blockquote><p><a href="#Pic-3"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-3.png"/></a></p><p> </p></blockquote>
+
+<p>&#34;Sure, I guess you <i>can</i> email a question, but just don&#39;t get your hopes up for a reply,&#34; writes <strong>Samuel N.</strong>
+</p><blockquote><p><a href="#Pic-4"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-4.png"/></a></p><p> </p></blockquote>
+
+<p><strong>Al H.</strong> writes, &#34;When I signed up for a trial evaluation of Toad and got an e-mail with the activation license key, this was not quite what I was expecting.&#34;
+</p><blockquote><p><a href="#Pic-5"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-5.png"/></a></p><p> </p></blockquote>
+
+<p>&#34;The cover story, in case anybody starts asking too many questions, is that Dustin is the name of the male squirrel outside the window. He and Sylvia the squirrel are married. <u>Nobody</u> was testing in Production,&#34; writes <strong>Sam P.</strong></p><blockquote><p><strong><a href="#Pic-6"><img border="0" alt="" src="//thedailywtf.com/images/19/q3/e382/Pic-6.jpg"/></a></strong></p><p><strong> </strong></p></blockquote><div>
+	<img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Confidence&amp;utm_campaign=Buildmaster_Footer">Utilize BuildMaster</a> to release your software with confidence, at the pace your business demands. <a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Confidence&amp;utm_campaign=Buildmaster_Footer">Download</a> today!  
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=0cVwukhaHg8:BTyfAYpSurw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/0cVwukhaHg8" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"22";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:65:"https://thedailywtf.com/articles/comments/modern-customer-support";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Remy Porter";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:29:"CodeSOD: Trim Off a Few Miles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/trim-off-a-few-miles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:7:"CodeSOD";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:29:"Thu, 26 Sep 2019 06:30:00 GMT";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:53:"https://thedailywtf.com/articles/trim-off-a-few-miles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3048:"<p>I don’t know the length of <strong>Russell F</strong>’s commute. Presumably, the distance is measured in miles. Miles and miles. I say that, because of this block, which is written… with <em>care</em>.</p>
+<pre><code class="csharp">  string Miles_w_Care = InvItem.MilesGuaranteeFlag == true &amp;&amp; InvItem.Miles_w_Care.HasValue ? (((int)InvItem.Miles_w_Care / 1000).ToString().Length &gt; 2 ? ((int)InvItem.Miles_w_Care / 1000).ToString().Trim().Substring(0, 2) : ((int)InvItem.Miles_w_Care / 1000).ToString().Trim()) : &#34;  &#34;;
+  string Miles_wo_Care = InvItem.MilesGuaranteeFlag == true &amp;&amp; InvItem.Miles_wo_Care.HasValue ? (((int)InvItem.Miles_wo_Care / 1000).ToString().Length &gt; 2 ? ((int)InvItem.Miles_wo_Care / 1000).ToString().Trim().Substring(0, 2) : ((int)InvItem.Miles_wo_Care / 1000).ToString().Trim()) : &#34;  &#34;;</code></pre>
+
+<p>Two lines, so many nested ternaries. Need to round off to the nearest thousand? Just divide and then <code>ToString</code> the result, selecting the substring as needed. Be sure to <code>Trim</code> the string which couldn’t possibly contain whitespace, you never know.</p>
+
+<p>Ironically, the only expression in this block which isn’t a WTF is <code>InvItem.MilesGuaranteeFlag == true</code>, because while we’re comparing against <code>true</code>, <code>MilesGuaranteeFlag</code> is a <code>Nullable&lt;bool&gt;</code>, so this confirms that it has a value <em>and</em> that the value is true.</p>
+
+<p>So many miles.</p>
+
+<blockquote>
+<p>And I would write five hundred lines<br/>
+and I would write five hundred more<br/>
+just to be the man who wrote a thousand lines<br/>
+<code>Uncaught Exception at line 24</code></p>
+</blockquote>
+<!-- Easy Reader Version: The tern pun I didn't use for this was "I'll tern this car around and go back home" or "Tern off in five miles" -->
+<link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/>
+<script src="//thedailywtf.com/images/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<div>
+	<img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/> [Advertisement] 
+	<a href="https://inedo.com/proget?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">ProGet</a> can centralize your organization&#39;s software applications and components to provide uniform access to developers and servers. <a href="http://inedo.com/proget/download?utm_source=tdwtf&amp;utm_medium=footerad&amp;utm_term=2018&amp;utm_content=Centralize&amp;utm_campaign=ProGet_Footer">Check it out!</a> 
+</div>
+<div style="clear: left;"> </div><div class="feedflare">
+<a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=0yzijXem1h8:9Q0pLWEgLxQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/0yzijXem1h8" height="1" width="1" alt=""/>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:2:"26";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:7:"comment";a:1:{i:0;a:5:{s:4:"data";s:62:"https://thedailywtf.com/articles/comments/trim-off-a-few-miles";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:46:"http://syndication.thedailywtf.com/TheDailyWtf";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:3:"hub";s:4:"href";s:32:"http://pubsubhubbub.appspot.com/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:4:"info";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:11:"thedailywtf";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://www.w3.org/2003/01/geo/wgs84_pos#";a:2:{s:3:"lat";a:1:{i:0;a:5:{s:4:"data";s:8:"41.36995";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"long";a:1:{i:0;a:5:{s:4:"data";s:10:"-81.862591";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:10:{s:12:"content-type";s:23:"text/xml; charset=UTF-8";s:4:"etag";s:27:"M0nDbL7wDkTPYyVcchpTU5XY2BE";s:13:"last-modified";s:29:"Wed, 16 Oct 2019 17:55:19 GMT";s:16:"content-encoding";s:4:"gzip";s:4:"date";s:29:"Wed, 16 Oct 2019 17:57:51 GMT";s:7:"expires";s:29:"Wed, 16 Oct 2019 17:57:51 GMT";s:13:"cache-control";s:18:"private, max-age=0";s:22:"x-content-type-options";s:7:"nosniff";s:16:"x-xss-protection";s:13:"1; mode=block";s:6:"server";s:3:"GSE";}s:5:"build";s:14:"20191015192130";}

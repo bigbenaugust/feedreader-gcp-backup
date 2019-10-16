@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6423b000b3f077d2eaa756ccef1cb9ed
+class ComposerStaticInit03ce2a273902332ceb43ed1e240ecccf
 {
     public static $files = array (
         '757772e28a0943a9afe83def8db95bdf' => __DIR__ . '/..' . '/mf2/mf2/Mf2/Parser.php',
@@ -23,7 +23,7 @@ class ComposerStaticInit6423b000b3f077d2eaa756ccef1cb9ed
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit6423b000b3f077d2eaa756ccef1cb9ed::$prefixesPsr0;
+            $loader->prefixesPsr0 = ComposerStaticInit03ce2a273902332ceb43ed1e240ecccf::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

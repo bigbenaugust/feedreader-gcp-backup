@@ -1,5 +1,5 @@
 <?php
-$token = $_SERVER["token"];
+$token = $_GET["token"];
 $foo = getenv("token");
 if ( $token != $foo )
 {
@@ -15,11 +15,11 @@ require("get_random_line.php");
 $feedarray=file("feeds.txt");
 $weatherarray=file("weather.txt");
 $linkarray=file("links.txt");
-$length = $_POST["length"];
+$length = $_GET["length"];
 if ( !$length ) {
 	$length = 4;
 }
-$days = $_POST["days"]; 
+$days = $_GET["days"]; 
 if ( !$days ) {
 	$days = 2;
 }

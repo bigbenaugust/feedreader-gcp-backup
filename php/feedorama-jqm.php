@@ -1,6 +1,7 @@
 <?php
 $token = $_POST["token"];
-if ( $token != getenv("token") )
+$foo = getenv("token");
+if ( $token != $foo ) )
 {
     header('HTTP/1.0 401 Unauthorized');
     echo 'FAILED';
@@ -10,7 +11,6 @@ else
 {
 date_default_timezone_set('America/New_York');
 require '../vendor/autoload.php';
-# require_once("php/autoloader.php");
 require("get_random_line.php");
 $feedarray=file("feeds.txt");
 $weatherarray=file("weather.txt");

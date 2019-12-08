@@ -1,7 +1,7 @@
 <?php
 $token = $_POST["token"];
 $foo = getenv("token");
-if ( $token != $foo ) )
+if ( $token != $foo )
 {
     header('HTTP/1.0 401 Unauthorized');
     echo 'FAILED';

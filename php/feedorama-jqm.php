@@ -1,5 +1,5 @@
 <?php
-$token = $_POST["token"];
+$token = $_SERVER["token"];
 $foo = getenv("token");
 if ( $token != $foo )
 {

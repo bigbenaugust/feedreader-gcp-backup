@@ -1,4 +1,13 @@
 <?php
+$token = $_POST["token"];
+if ( $token != getenv("token") )
+{
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'FAILED';
+    exit;
+}
+else
+{
 date_default_timezone_set('America/New_York');
 require '../vendor/autoload.php';
 # require_once("php/autoloader.php");
@@ -93,4 +102,5 @@ foreach ($feedarray as $key => $url) {
 ## FOOTERS
 
 echo "</ul></div></body></html>";
+}
 ?>

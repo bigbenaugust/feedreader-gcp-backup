@@ -1,5 +1,7 @@
 https://abc11.com/feed/
 http://www.wral.com/news/rss/142/
+http://rssfeeds.wcnc.com/wcnc/home
+http://rssfeeds.wcnc.com/wcnc/local
 http://feeds.bbci.co.uk/news/world/rss.xml
 http://feeds.reuters.com/Reuters/worldNews?format=xml
 http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml?edition=int

@@ -1,7 +1,7 @@
 http://rssfeeds.wcnc.com/wcnc/home
 http://rssfeeds.wcnc.com/wcnc/local
 http://feeds.bbci.co.uk/news/world/rss.xml
-http://feeds.reuters.com/Reuters/worldNews?format=xml
+https://justthenews.com/rss.xml
 https://www.oann.com/category/newsroom/feed
 https://stream.org/feed/
 https://radicalmentoring.com/feed/

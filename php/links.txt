@@ -1,4 +1,5 @@
 ODB,http://odb.org
+BGEA,https://billygraham.org/devotions/
 C&MA Tozer,http://www.cmalliance.org/devotions/tozer
 Stedman,https://www.raystedman.org/daily-devotions
 BF,http://bikeforums.net

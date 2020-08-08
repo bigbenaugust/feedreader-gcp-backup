@@ -1,6 +1,8 @@
 http://rssfeeds.wcnc.com/wcnc/home
 http://rssfeeds.wcnc.com/wcnc/local
 http://feeds.bbci.co.uk/news/world/rss.xml
+https://feeds.feedblitz.com/SamaritansPurse/
+https://billygraham.org/feed
 https://justthenews.com/rss.xml
 https://www.oann.com/category/newsroom/feed
 https://stream.org/feed/

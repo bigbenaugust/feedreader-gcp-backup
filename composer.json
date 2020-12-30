@@ -1,5 +1,6 @@
 {
   "require": {
+        "php": "^7.4.0",
         "mf2/mf2": "0.4.6",
         "simplepie/simplepie": "~1.5"
   }

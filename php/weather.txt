@@ -1,5 +1,6 @@
 wttr.in,http://wttr.in/?u
-NWS,https://mobile.weather.gov/index.php?lat=35.25355040000005&lon=-80.70625989999996
+NWS (old),https://mobile.weather.gov/index.php?lat=35.25355040000005&lon=-80.70625989999996
+NWS (new),https://radar.weather.gov
 WCNC,http://www.wcnc.com/weather/
 WRAL,http://www.wral.com/weather/
 NHC,http://www.nhc.noaa.gov/

@@ -9,7 +9,6 @@ https://stream.org/feed/
 https://radicalmentoring.com/feed/
 http://babylonbee.com/feed/
 http://rss.slashdot.org/Slashdot/slashdot
-http://feeds.arstechnica.com/arstechnica/index?format=xml
 http://distrowatch.com/news/dw.xml
 https://lwn.net/headlines/rss
 http://www.theregister.co.uk/headlines.atom

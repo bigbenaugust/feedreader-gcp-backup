@@ -1,14 +1,4 @@
 <?php
-$token = $_GET["token"];
-$foo = getenv("token");
-if ( $token != $foo )
-{
-    header('HTTP/1.0 401 Unauthorized');
-    echo 'FAILED';
-    exit;
-}
-else
-{
 date_default_timezone_set('America/New_York');
 require '../vendor/autoload.php';
 require("get_random_line.php");
@@ -102,5 +92,4 @@ foreach ($feedarray as $key => $url) {
 ## FOOTERS
 
 echo "</ul></div></body></html>";
-}
 ?>

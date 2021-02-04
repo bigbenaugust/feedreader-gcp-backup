@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('America/New_York');
-require '../vendor/autoload.php';
+require '/usr/share/php/simplepie/autoloader.php';
 require("get_random_line.php");
 $feedarray=file("feeds.txt");
 $weatherarray=file("weather.txt");

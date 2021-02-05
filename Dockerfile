@@ -5,7 +5,8 @@ RUN apt-get update && \
 
 RUN cd /var/www/html/ && \
     curl -kL -o master.zip https://github.com/bigbenaugust/feedreader-gcp-backup/archive/master.zip && \
-    unzip master.zip
+    unzip master.zip && \
+    chown www-data:www-data /var/www/html/feedreader-gcp-backup-master/php/cache
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 

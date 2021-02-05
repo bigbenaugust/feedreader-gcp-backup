@@ -73,7 +73,7 @@ echo "<ul data-role='listview' data-inset='true' class='ui-mini'>";
 foreach ($feedarray as $key => $url) {
 	$feed = new SimplePie();
 	$feed->set_feed_url($url);
-	$feed->enable_cache(true);	
+	$feed->enable_cache(false);	
 	$feed->set_cache_duration(3600);
 	$feed->init();
 	$feed->handle_content_type();

@@ -4,6 +4,7 @@ http://feeds.bbci.co.uk/news/world/rss.xml
 https://feeds.feedblitz.com/SamaritansPurse/
 https://billygraham.org/feed
 https://justthenews.com/rss.xml
+https://www.newsmax.com/rss/Newsfront/16/
 https://www.oann.com/category/newsroom/feed
 https://stream.org/feed/
 https://radicalmentoring.com/feed/
@@ -14,7 +15,6 @@ https://lwn.net/headlines/rss
 http://www.theregister.co.uk/headlines.atom
 http://www.autoblog.com/rss.xml
 http://www.engadget.com/rss.xml
-http://www.bikecommuters.com/feed/
 http://www.bikeforums.net/external.php
 http://www.airlinereporter.com/feed/
 http://feeds.feedburner.com/shorpy?q=rss.xml

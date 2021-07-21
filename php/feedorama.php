@@ -30,29 +30,26 @@ echo "</head><body>";
 ## PAGE STARTS HERE
 
 echo "Ben's Stuff - Last loaded: " . date('r') . " - Local Time: <strong id='localtime'></strong><script language='javascript'>document.getElementById('localtime').innerHTML = Date();</script>";
-echo "<small>";
+echo "<br><small>";
 echo rand_line("../fortunes.txt");
 echo " - <a href='../fortunes.txt'>list</a></small><br>";
 
 ## SETTINGS
 
-echo "<table><tr><td>";
-echo "<h4>Settings</h4>";
-echo "<ul>";
+echo "<table><thead><tr><th>Settings</th><th>Weather</th><th>Bookmarks</th></tr></thead>";
+echo "<tr><td><ul>";
 echo "<li><form action='feedorama-jqm.php' method='post'><fieldset><input type='number' name='length' id='length' min='1' max='9' value='' placeholder='headlines'><input type='number' name='days' id='days' min='1' max='9' value='' placeholder='days'><input type='submit' value='go'></fieldset></form></li>";
 echo "</ul></td>";
 
 ## LINKS / BOOKMARKS
 
-echo "<td><h4>Weather</h4>";
-echo "<ul>";
+echo "<td><ul>";
 foreach ($weatherarray as $key => $weather) {
 	$info = explode(",", $weather);
 	echo '<li><a href="' . $info[1] . '" target="_blank">' . $info[0] . '</a></li>';
 }
 echo "</ul></td>";
-echo "<td><h4>Bookmarks</h4>";
-echo "<ul>";
+echo "<td><ul>";
 foreach ($linkarray as $key => $link) {
 	$info2 = explode(",", $link);
 	echo '<li><a href="' . $info2[1] . '" target="_blank">' . $info2[0] . '</a></li>';
@@ -69,12 +66,12 @@ foreach ($feedarray as $key => $url) {
 	$feed->set_cache_duration(3600);
 	$feed->init();
 	$feed->handle_content_type();
-	echo "<table><tr><th>";
+	echo "<table><tr><th id=left>";
 	echo '<a href="' . $feed->get_permalink() . '" target="_blank">' . $feed->get_title() . '</a>';
 	echo "</th></tr><tr><td>";
 	foreach ($feed->get_items(0,$length) as $key=>$item) {
 		if ( $now - strtotime($item->get_date()) <= $age ) {
-			echo '<a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . ' : ' . $item->get_date() . '</a>';
+			echo '<a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . ' : ' . $item->get_date() . '</a><br>';
 		}
 	}
 	$feed->__destruct();

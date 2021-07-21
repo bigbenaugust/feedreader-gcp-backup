@@ -1,24 +1,25 @@
 body {
-   font: 10px/1.0 Verdana, Arial, Helvetica, sans-serif;
+   font: 12px/1.0 Verdana, Arial, Helvetica, sans-serif;
+   color:#ffffff;
    background-color:#3c3c3c;
 	}
 
 h1 {
-   font: 16px/1.0 Verdana, Arial, Helvetica, sans-serif;
+   font: 18px/1.0 Verdana, Arial, Helvetica, sans-serif;
    font-weight:bold;
    margin-top:12px;
    margin-bottom:6px;
 }
 
 h2 {
-   font: 14px/1.0 Verdana, Arial, Helvetica, sans-serif;
+   font: 16px/1.0 Verdana, Arial, Helvetica, sans-serif;
    font-weight:bold;
    margin-top:12px;
    margin-bottom:6px;
 }
 
 h3 {
-   font: 12px/1.0 Verdana, Arial, Helvetica, sans-serif;
+   font: 14px/1.0 Verdana, Arial, Helvetica, sans-serif;
    font-weight:bold;
    margin-top:12px;
    margin-bottom:6px;
@@ -53,16 +54,20 @@ span.title {
 
 a {
 	text-decoration:none;
-    color:#00a;
+    color:#ffffff;
 	}
 
 a:visited {
-    color:#80a;
+    color:#cccccc;
 }
 
 a:hover {
 	text-decoration:underline;
 	}
+
+#left {
+	float:left;
+}
 
 div.left {
         margin-top:3px;

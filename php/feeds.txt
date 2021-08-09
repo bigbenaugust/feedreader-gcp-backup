@@ -6,8 +6,9 @@ https://billygraham.org/feed
 https://justthenews.com/rss.xml
 https://www.newsmax.com/rss/Newsfront/16/
 https://www.oann.com/category/newsroom/feed
+https://dailycaller.com/feed/
+https://www.christianpost.com/rss/
 https://stream.org/feed/
-https://radicalmentoring.com/feed/
 http://babylonbee.com/feed/
 http://rss.slashdot.org/Slashdot/slashdot
 http://distrowatch.com/news/dw.xml

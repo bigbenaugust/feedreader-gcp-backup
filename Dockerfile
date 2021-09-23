@@ -3,7 +3,7 @@ FROM debian:latest
 WORKDIR /var/www/html/
 
 RUN apt-get update && \
-    apt-get -y install unzip curl apache2 libapache2-mod-php7.3 php7.3-xml php-cgi php-mf2 libphp-simplepie && \
+    apt-get -y install unzip curl apache2 libapache2-mod-php php-xml php-cgi php-mf2 libphp-simplepie && \
     curl -kL -o master.zip https://github.com/bigbenaugust/feedreader-gcp-backup/archive/master.zip && \
     unzip master.zip && \
     chown www-data:www-data /var/www/html/feedreader-gcp-backup-master/php/cache && \

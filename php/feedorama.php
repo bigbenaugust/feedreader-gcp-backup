@@ -28,7 +28,7 @@ echo " - <a href='../fortunes.txt'>list</a></small><br>";
 
 ## WEATHER / BOOKMARKS
 
-echo "<table><thead><tr>Weather</th><th>Bookmarks</th></tr></thead>";
+echo "<table><thead><tr><th>Weather</th><th>Bookmarks</th></tr></thead>";
 echo "<tr><td><ul>";
 foreach ($weatherarray as $key => $weather) {
 	$info = explode(",", $weather);

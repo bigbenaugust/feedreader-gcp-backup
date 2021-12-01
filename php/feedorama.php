@@ -5,14 +5,6 @@ require("get_random_line.php");
 $feedarray=file("feeds.txt");
 $weatherarray=file("weather.txt");
 $linkarray=file("links.txt");
-$length = $_GET["length"];
-if ( !$length ) {
-	$length = 4;
-}
-$days = $_GET["days"]; 
-if ( !$days ) {
-	$days = 2;
-}
 $length = 4;
 $days = 2;
 $now = date('U');
@@ -34,16 +26,10 @@ echo "<br><small>";
 echo rand_line("../fortunes.txt");
 echo " - <a href='../fortunes.txt'>list</a></small><br>";
 
-## SETTINGS
+## WEATHER / BOOKMARKS
 
-echo "<table><thead><tr><th>Settings</th><th>Weather</th><th>Bookmarks</th></tr></thead>";
+echo "<table><thead><tr>Weather</th><th>Bookmarks</th></tr></thead>";
 echo "<tr><td><ul>";
-echo "<li><form action='feedorama-jqm.php' method='post'><fieldset><input type='number' name='length' id='length' min='1' max='9' value='' placeholder='headlines'><input type='number' name='days' id='days' min='1' max='9' value='' placeholder='days'><input type='submit' value='go'></fieldset></form></li>";
-echo "</ul></td>";
-
-## LINKS / BOOKMARKS
-
-echo "<td><ul>";
 foreach ($weatherarray as $key => $weather) {
 	$info = explode(",", $weather);
 	echo '<li><a href="' . $info[1] . '" target="_blank">' . $info[0] . '</a></li>';

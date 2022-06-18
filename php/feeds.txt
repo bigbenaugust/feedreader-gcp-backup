@@ -16,7 +16,6 @@ https://lwn.net/headlines/rss
 http://www.theregister.co.uk/headlines.atom
 http://www.autoblog.com/rss.xml
 http://www.engadget.com/rss.xml
-http://www.bikeforums.net/external.php
 http://www.airlinereporter.com/feed/
 http://feeds.feedburner.com/shorpy?q=rss.xml
 https://rarehistoricalphotos.com/feed/

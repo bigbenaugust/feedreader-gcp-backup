@@ -1,5 +1,5 @@
-http://rssfeeds.wcnc.com/wcnc/home
-http://rssfeeds.wcnc.com/wcnc/local
+http://feeds.feedblitz.com/wcnc/home
+http://feeds.feedblitz.com/wcnc/local
 http://feeds.bbci.co.uk/news/world/rss.xml
 https://feeds.feedblitz.com/SamaritansPurse/
 https://billygraham.org/feed

@@ -1,3 +1,4 @@
+NTB,https://notthebee.com
 ODB,http://odb.org
 BGEA,https://billygraham.org/devotions/
 C&MA Tozer,http://www.cmalliance.org/devotions/tozer

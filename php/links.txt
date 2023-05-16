@@ -3,9 +3,7 @@ ODB,http://odb.org
 BGEA,https://billygraham.org/devotions/
 C&MA Tozer,http://www.cmalliance.org/devotions/tozer
 Stedman,https://www.raystedman.org/daily-devotions
-NTB,http://notthebee.com
 BF,http://bikeforums.net
-BL,https://forums.bunsenlabs.org/search.php?action=show_recent
 MX,https://forum.mxlinux.org/search.php?search_id=active_topics
 RPi,https://www.raspberrypi.org/forums/index.php
 Dinosaur Comics,http://qwantz.com/

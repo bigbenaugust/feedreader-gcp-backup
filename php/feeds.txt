@@ -20,5 +20,4 @@ http://feeds.feedburner.com/shorpy?q=rss.xml
 https://rarehistoricalphotos.com/feed/
 https://www.monkeyuser.com/feed.xml
 http://www.xkcd.com/rss.xml
-http://cdn.sheldoncomics.com/rss.xml
 http://syndication.thedailywtf.com/TheDailyWtf
